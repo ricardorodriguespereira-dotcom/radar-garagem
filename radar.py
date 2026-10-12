@@ -25,8 +25,10 @@ YT = "https://www.googleapis.com/youtube/v3/"
 NICHOS = {
     "carros": dict(
         categoria="2",  # Autos & Vehicles
-        sementes=["car review", "hybrid car", "electric car", "car maintenance", "car buying tips",
-                  "car problems", "best cars", "new car", "car mechanic", "car technology"],
+        sem_modelos=True,  # canal para iniciantes: ignora temas que são nome de marca/modelo
+        sementes=["car tips for beginners", "new driver tips", "car maintenance for beginners", "diy car maintenance",
+                  "car buying tips", "dashboard warning lights", "how to check your car", "car hacks",
+                  "car problems explained", "things every driver should know"],
         glossario={
             "car": "carro", "cars": "carros", "hybrid": "híbrido", "electric": "elétrico", "ev": "carro elétrico",
             "review": "review", "maintenance": "manutenção", "engine": "motor", "battery": "bateria",
@@ -41,6 +43,12 @@ NICHOS = {
             "myths": "mitos", "pressure": "pressão", "reliability": "confiabilidade", "cost": "custo",
             "replacement": "troca", "winter": "inverno", "owners": "donos", "mistakes": "erros", "scam": "golpe",
             "pads": "pastilhas", "long": "longo", "term": "prazo", "tested": "testado", "miles": "milhas",
+            "beginners": "iniciantes", "beginner": "iniciante", "driver": "motorista", "drivers": "motoristas",
+            "driving": "direção", "check": "verificar", "lights": "luzes", "dashboard": "painel", "warning": "alerta",
+            "headlights": "farol", "wipers": "limpador", "coolant": "água do radiador", "filter": "filtro",
+            "brake": "freio", "parking": "estacionar", "hacks": "truques", "first": "primeiro", "flat": "furado",
+            "tire": "pneu", "jump": "chupeta", "start": "partida", "noise": "barulho", "smell": "cheiro",
+            "leak": "vazamento", "overheating": "superaquecimento", "spare": "estepe", "rain": "chuva", "ac": "ar-condicionado",
         },
         frases={
             "oil change": "troca de óleo", "car maintenance": "manutenção do carro", "tire pressure": "calibragem dos pneus",
@@ -53,6 +61,14 @@ NICHOS = {
             "tire pressure myths": "mitos calibragem pneus", "turbo engine problems": "problemas motor turbo",
             "cvt transmission problems": "problemas câmbio cvt", "car maintenance tips": "dicas manutenção carro",
             "used car buying tips": "dicas comprar carro usado", "used car buying mistakes": "erros comprar carro usado",
+            "car tips": "dicas de carro", "new driver": "motorista iniciante", "new drivers": "motoristas iniciantes",
+            "driving tips": "dicas de direção", "dashboard lights": "luzes do painel", "warning lights": "luzes do painel",
+            "dashboard warning lights": "luzes do painel", "jump start": "fazer chupeta bateria", "flat tire": "pneu furado",
+            "spare tire": "estepe", "windshield wipers": "palheta limpador", "wiper blades": "palheta limpador",
+            "cabin air filter": "filtro de cabine", "air filter": "filtro de ar", "parallel parking": "baliza",
+            "first car": "primeiro carro", "car hacks": "truques para carro", "check engine light": "luz da injeção",
+            "car battery": "bateria do carro", "dead battery": "bateria descarregada", "brake noise": "barulho no freio",
+            "car overheating": "carro esquentando", "car smell": "cheiro no carro", "diy car": "faça você mesmo carro",
         },
     ),
     "reforma": dict(
@@ -215,7 +231,7 @@ GENERICOS = {"long term", "replacement cost", "what happened", "nobody talks", "
              "need to know", "things you", "should you", "worth it", "the truth"}
 
 
-def temas_heuristica(vids, glossario, max_temas, frases=None):
+def temas_heuristica(vids, glossario, max_temas, frases=None, sem_modelos=False):
     """Agrupa por expressões (2-3 palavras) que se repetem nos títulos; nomes de modelos ficam como estão."""
     pontos, membros, forma = defaultdict(float), defaultdict(set), {}
     for v in vids:
@@ -230,6 +246,8 @@ def temas_heuristica(vids, glossario, max_temas, frases=None):
                 if g[0][0][0].isdigit():
                     continue
                 chave = " ".join(t[0] for t in g)
+                if sem_modelos and any(t[0] in MARCAS or any(c.isdigit() for c in t[0]) for t in g):
+                    continue
                 if chave in GENERICOS or chave in vistos:
                     continue
                 vistos.add(chave)
@@ -289,7 +307,8 @@ def temas_ia(vids, nicho, max_temas, chave):
     prompt = f"""Você é pesquisador de pauta de um canal brasileiro de YouTube sobre {nicho}.
 Abaixo estão vídeos em alta nos EUA (id, views por dia, título). Agrupe em até {max_temas} TEMAS de pauta
 (assunto, não vídeo específico), ignorando publi, vlogs pessoais e assuntos que não fazem sentido no Brasil
-(ex.: produto ou lei que só existe nos EUA, sem equivalente aqui).
+(ex.: produto ou lei que só existe nos EUA, sem equivalente aqui). O canal é para LEIGOS e INICIANTES: prefira
+dúvidas práticas e "faça você mesmo"; ignore reviews de modelos específicos.
 Para cada tema, devolva o termo que um brasileiro digitaria no YouTube para procurar esse assunto.
 Responda SOMENTE com JSON: [{{"tema_en": "...", "tema_pt": "...", "busca_pt": "...", "angulo_br": "uma frase com o ângulo para o público brasileiro", "ids": ["id", ...]}}]
 
@@ -328,7 +347,7 @@ def pontuar(temas, vids_eua, br):
         demanda = 100 * math.log10(1 + t["vpd_eua"]) / mx
         demanda *= 1 + min(t["outlier_max"], 10) / 20  # tema puxado por canal pequeno = demanda real
         top5 = t["top5_br"] or 0
-        saturacao = min(1.0, math.log10(1 + top5) / 7)  # ~10 milhões de views no top 5 = saturado
+        saturacao = max(0.0, min(1.0, (math.log10(1 + top5) - 4) / 5))  # 10 mil ≈ 0 · 10 mi ≈ 0,6 · 1 bi ≈ 1
         sug = t["sugestoes_br"]
         fator_busca = 1.0 if sug is None else 0.6 + 0.04 * min(len(sug), 10)
         t["demanda"] = round(min(demanda, 150), 1)
@@ -394,7 +413,7 @@ def salvar_html(temas, caminho, info):
         sug = t["sugestoes_br"]
         sug_txt = "não medido" if sug is None else (", ".join(esc(s) for s in sug[:5]) or "nenhuma")
         sat = t["saturacao"]
-        selo = ("saturado", "sat") if sat > 0.8 else (("concorrido", "med") if sat > 0.55 else ("espaço livre", "ok"))
+        selo = ("saturado", "sat") if sat > 0.85 else (("concorrido", "med") if sat > 0.6 else ("espaço livre", "ok"))
         rev = "" if t["traducao_ok"] else '<em class="rev">conferir tradução</em>'
         ang = f'<p class="ang">{esc(t["angulo_br"])}</p>' if t.get("angulo_br") else ""
         linhas.append(f"""
@@ -452,7 +471,7 @@ def rodar(args):
     if args.demo:
         import radar_demo
         vids = radar_demo.videos(agora)
-        temas = temas_heuristica(vids, nicho["glossario"], args.top * 3, nicho.get("frases"))
+        temas = temas_heuristica(vids, nicho["glossario"], args.top * 3, nicho.get("frases"), nicho.get("sem_modelos", False))
         temas = [t for t in temas if t["traducao_ok"]][:args.top]
         br = radar_demo.medir_br(temas)
         cota = 0
@@ -483,7 +502,7 @@ def rodar(args):
             except Exception as e:
                 print(f"IA indisponível ({e}); usando agrupamento automático.")
         if not temas:
-            temas = temas_heuristica(vids, nicho["glossario"], args.top * 3, nicho.get("frases"))
+            temas = temas_heuristica(vids, nicho["glossario"], args.top * 3, nicho.get("frases"), nicho.get("sem_modelos", False))
             revisar = [t for t in temas if not t["traducao_ok"]]
             temas = [t for t in temas if t["traducao_ok"]][:args.top]
             if revisar:
