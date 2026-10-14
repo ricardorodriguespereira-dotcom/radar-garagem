@@ -38,7 +38,11 @@ seus suas meu minha mais menos muito como quando qual quais isso isto esse essa 
 STOP_PT |= set("sobre entre até depois antes agora hoje aqui ali mesmo cada outro outra coisa coisas".split())
 # palavras das próprias buscas não podem virar "tema"
 PALAVRAS_SEMENTE = {w for _, (_, ss) in SEMENTES.items() for s in ss for w in s.lower().split()}
-STOP = RD.STOP | STOP_PT | PALAVRAS_SEMENTE | set("stories explained facts things people video shorts".split())
+GENERICOS = set("""stories explained facts things people video videos shorts short viral trending trend fyp foryou foryoupage
+for you edit edits meme memes funny funnyvideo comedy shortsfeed youtubeshorts youtubeshort ytshorts tiktok usa reels
+explore explorepage new part official full hd love life story amazing best world mundo vídeo vídeos curiosidade
+incrível incrivel humor engraçado engraçados""".split())
+STOP = RD.STOP | STOP_PT | PALAVRAS_SEMENTE | GENERICOS
 
 
 def amostra(yt, agora, dias):
@@ -70,6 +74,29 @@ def amostra(yt, agora, dias):
     return itens, canais, origem
 
 
+PT_MARCAS = set("você voce não nao isso esse essa muito quando porque também tambem fazer como sobre está esta são sao uma pra seu sua do da dos das com ao pelo pela maior homem mulher".split())
+ES_MARCAS = set("el los las una usted también porque está muy cuando cómo qué película completa historia real ella".split())
+EN_MARCAS = set("the you this that with what why how your when they are for of and in to on is was ahead".split())
+RISCO_REUSO = re.compile(r"full movie|filme completo|pel[ií]cula completa|movie explained|#edit|\bedits?\b|compilation|compila", re.I)
+
+
+def idioma(titulo, declarado):
+    if declarado[:2] in ("pt", "en", "es"):
+        return declarado[:2]
+    if re.search(r"[\u0900-\u0dff\u0600-\u06ff\u0e00-\u0fff\u3040-\u9fff\uac00-\ud7af]", titulo):
+        return "outro"
+    ws = set(re.findall(r"[a-zà-úç]+", titulo.lower()))
+    pts, ess, ens = len(ws & PT_MARCAS), len(ws & ES_MARCAS), len(ws & EN_MARCAS)
+    if re.search(r"[ãõç]", titulo.lower()):
+        pts += 2
+    if re.search(r"[ñ¿¡]", titulo.lower()):
+        ess += 2
+    m = max(pts, ess, ens)
+    if m == 0:
+        return "?"
+    return "pt" if m == pts else ("es" if m == ess else "en")
+
+
 def analisar(itens, canais, origem, agora, idade_max=365):
     por_canal = defaultdict(list)
     for v in itens:
@@ -82,7 +109,8 @@ def analisar(itens, canais, origem, agora, idade_max=365):
         dur = RD.duracao_s(v.get("contentDetails", {}).get("duration"))
         por_canal[cid].append(dict(id=v["id"], titulo=sn["title"], views=views, vpd=views / idade, dur=dur,
                                    cat=sn.get("categoryId", ""), regiao=origem.get(v["id"], ""),
-                                   idioma=(sn.get("defaultAudioLanguage") or sn.get("defaultLanguage") or "")[:2],
+                                   idioma=(lambda l: l if l != "?" else ("pt" if origem.get(v["id"]) == "BR" else "en"))(
+                                       idioma(sn["title"], (sn.get("defaultAudioLanguage") or sn.get("defaultLanguage") or ""))),
                                    url=f"https://www.youtube.com/watch?v={v['id']}"))
     res = []
     for cid, vids in por_canal.items():
@@ -97,13 +125,18 @@ def analisar(itens, canais, origem, agora, idade_max=365):
         novo = idade <= idade_max
         if not novo or melhor["views"] < 50_000:
             continue
+        lingua = Counter(x["idioma"] for x in vids).most_common(1)[0][0]
+        if lingua in ("outro", "es"):
+            continue  # o explorador olha oportunidades em inglês (lá fora) e português (Brasil)
         shorts = sum(1 for x in vids if x["dur"] <= 180) / len(vids)
+        reuso = any(RISCO_REUSO.search(x["titulo"]) for x in vids)
         score = math.log10(1 + melhor["vpd"]) * math.sqrt(min(outlier, 100)) * (1 + (idade_max - idade) / idade_max)
         res.append(dict(id=cid, nome=c["nome"], pais=c["pais"], idade=int(idade), inscritos=c["inscritos"],
                         videos=c["videos"], media=media_canal, outlier=outlier, melhor=melhor, vids=vids,
                         formato="Shorts" if shorts >= .5 else "Longo", score=score,
                         cat=Counter(x["cat"] for x in vids).most_common(1)[0][0],
-                        regiao=Counter(x["regiao"] for x in vids).most_common(1)[0][0],
+                        regiao="BR" if lingua == "pt" else "EUA",
+                        reuso=reuso,
                         url=f"https://www.youtube.com/channel/{cid}"))
     res.sort(key=lambda x: x["score"], reverse=True)
     return res
@@ -144,7 +177,7 @@ def grupos_heuristica(canais_novos, max_grupos=12):
         if c["id"] not in usados:
             por_cat[c["cat"]].append(c)
     for cat, cs in sorted(por_cat.items(), key=lambda kv: -sum(c["score"] for c in kv[1])):
-        if len(cs) >= 2 and len(grupos) < max_grupos + 4:
+        if len(cs) >= 3 and len(grupos) < max_grupos + 2 and cat not in ("22", "24"):
             grupos.append(dict(tema=CATEGORIAS.get(cat, "Outros"), canais=cs, ideia="", sem_rosto=None, angulo_br=""))
     return grupos
 
@@ -188,7 +221,8 @@ def pontuar_grupos(grupos):
         g["outlier_med"] = statistics.median(c["outlier"] for c in cs)
         g["idade_med"] = statistics.median(c["idade"] for c in cs)
         g["vpd"] = sum(c["melhor"]["vpd"] for c in cs)
-        g["us"] = sum(1 for c in cs if c["regiao"] == "US")
+        g["us"] = sum(1 for c in cs if c["regiao"] == "EUA")
+        g["reuso"] = sum(1 for c in cs if c.get("reuso"))
         g["br"] = sum(1 for c in cs if c["regiao"] == "BR")
         g["formato"] = Counter(c["formato"] for c in cs).most_common(1)[0][0]
         lacuna = 1.3 if g["us"] and not g["br"] else 1.0  # explodindo lá fora e ainda sem canal novo aqui
@@ -210,6 +244,7 @@ def salvar_html(grupos, canais_novos, caminho, info):
             '<span class="tag med">já tem canal novo no BR</span>' if g["br"] else "")
         rosto = "" if g["sem_rosto"] is None else (
             '<span class="tag ok">dá sem aparecer</span>' if g["sem_rosto"] else '<span class="tag sat">pede rosto</span>')
+        reuso = '<span class="tag sat">canais reaproveitam conteúdo alheio: não copie o formato</span>' if g.get("reuso", 0) >= max(1, g["n"] / 2) else ""
         risco = f'<span class="tag {"sat" if g.get("risco") == "alto" else "med" if g.get("risco") == "médio" else "ok"}">risco {esc(g["risco"])}</span>' if g.get("risco") else ""
         cs = "".join(
             f'<li><a href="{esc(c["url"])}">{esc(c["nome"])}</a> <span>{c["idade"]} dias · {fmt(c["inscritos"])} inscritos · '
@@ -218,7 +253,7 @@ def salvar_html(grupos, canais_novos, caminho, info):
         extra = "".join(f'<p class="ang"><b>{r}:</b> {esc(t)}</p>' for r, t in (("Ideia", g["ideia"]), ("Brasil", g["angulo_br"])) if t)
         blocos.append(f"""
 <article><header><b>{i}</b><div><h2>{esc(g["tema"])}</h2>
-<p class="tags">{lacuna}{rosto}{risco}<span class="tag">{g["formato"]}</span></p></div></header>
+<p class="tags">{lacuna}{rosto}{risco}{reuso}<span class="tag">{g["formato"]}</span></p></div></header>
 <div class="bar"><i style="width:{100 * g["nota"] / mx:.0f}%"></i></div>{extra}
 <dl><div><dt>Canais novos explodindo</dt><dd>{g["n"]}</dd></div><div><dt>Idade mediana</dt><dd>{g["idade_med"]:.0f} dias</dd></div>
 <div><dt>Views ÷ inscritos (mediana)</dt><dd>{g["outlier_med"]:.0f}×</dd></div><div><dt>Views/dia somados</dt><dd>{fmt(g["vpd"])}</dd></div>
