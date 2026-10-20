@@ -8,7 +8,7 @@ Junta, uma vez por semana, ideias de fontes diferentes e mostra SÓ o que é nov
   2. Lá fora, em 3 prazos: o que explodiu na semana, o que vai bem no mês e os clássicos do ano.
      Os países mudam toda semana (rodízio entre EUA, Reino Unido, Austrália, Canadá, Índia, México, Espanha,
      Argentina, Colômbia, Chile e Portugal).
-  3. Reddit: perguntas mais votadas da semana em fóruns de motoristas e mecânicos (EUA/mundo).
+  3. Dúvidas lá fora: o que motoristas dos EUA e do México digitam no YouTube e no Google.
   4. Calendário do Brasil nas próximas 6 semanas (feriados, chuva, calor, IPVA, Black Friday...).
 
     python ideias.py                 # coleta real (precisa da YOUTUBE_API_KEY)
@@ -54,7 +54,13 @@ PERGUNTAS = ["como saber se o carro", "por que o carro", "o que fazer quando o c
              "como economizar", "primeira vez dirigindo"]
 EXPANDIR = ["como saber se o carro", "por que o carro", "o que fazer quando o carro", "é normal o carro"]
 LETRAS = "abcdefghijlmnopqrstuv"
-SUBREDDITS = ["MechanicAdvice", "Cartalk", "cars", "whatcarshouldIbuy", "electricvehicles", "AskMechanics"]
+PERGUNTAS_FORA = {
+    ("en", "us"): ["why does my car", "is it normal for my car", "what happens if you", "how do i know if my car",
+                   "can i drive with", "what does it mean when your car", "should i warm up my car", "how often should i"],
+    ("es", "mx"): ["por qué mi carro", "por qué mi auto", "es normal que mi carro", "qué pasa si mi carro",
+                   "cómo saber si mi carro", "se puede manejar con", "cada cuánto se cambia"],
+}
+BANDEIRA = {"us": "EUA", "mx": "México"}
 UA = {"User-Agent": "garagem-tecnica-ideias/1.0 (canal educativo)"}
 
 
@@ -69,8 +75,25 @@ def latino(s):
     return not letras or sum(c.isascii() or c in "áàâãéêíóôõúçñüÁÀÂÃÉÊÍÓÔÕÚÇÑÜ¿¡" for c in letras) / len(letras) > .9
 
 
+MARCAS_EXTRA = set("""maruti suzuki tata mahindra nexon brezza venue creta swift kwid onix hb20 gol polo cavalier camry
+rav4 f150 tacoma silverado wrangler mustang tracker hrv crv kicks sentra versa yaris etios strada toro""".split())
+CARRO = set("""car cars carro carros auto autos coche coches vehiculo vehiculos vehicle vehicles veiculo veiculos motor
+engine oil aceite oleo brake brakes freno frenos freio freios tire tires tyre tyres llanta llantas neumatico neumaticos
+pneu pneus battery bateria driving drive driver drivers manejar conducir conduccion dirigir mechanic mecanico dashboard
+tablero painel headlight headlights faros farol faroles wiper wipers limpiaparabrisas parabrisas windshield radiator
+radiador coolant transmission embrague embreagem clutch gasolina fuel combustible combustivel suv truck camioneta
+parking estacionar taller oficina mecanica volante steering exhaust escape""".split())
+FORA = set("""gta game games gameplay roblox minecraft simulator 3d prank challenge filter meme memes asmr reaction
+funny tiktok song music trailer movie free fire mestre menu craft brush ff""".split())
+
+
 def tem_marca(titulo):
-    return any(p in RD.MARCAS for p in norm(titulo).split())
+    return any(p in RD.MARCAS or p in MARCAS_EXTRA for p in norm(titulo).split())
+
+
+def relevante(titulo):
+    ps = set(norm(titulo).split())
+    return bool(ps & CARRO) and not (ps & FORA) and not ({"vs", "versus"} & ps)
 
 
 def get_json(url, tentativas=2):
@@ -100,6 +123,14 @@ def autocompletar(q, youtube=True):
         return None
 
 
+FIM_RUIM = set("o a os as de do da dos das com que quando se e no na um uma para pra por em meu minha".split())
+
+
+def incompleta(s):
+    n = norm(s)
+    return n.split()[-1] in FIM_RUIM or bool(re.search(r"(quando|se|que|porque|por que) (o|meu|a|seu) carro$", n))
+
+
 def duvidas_br():
     consultas = list(PERGUNTAS) + [f"{e} {l}" for e in EXPANDIR for l in LETRAS]
     pontos, fonte, falhas = defaultdict(float), defaultdict(set), 0
@@ -111,7 +142,7 @@ def duvidas_br():
                 continue
             for pos, s in enumerate(sug[:10]):
                 s = s.strip()
-                if len(s.split()) < 4 or norm(s) == norm(q):
+                if len(s.split()) < 4 or norm(s) == norm(q) or incompleta(s):
                     continue
                 pontos[s] += 1 + (10 - pos) / 10
                 fonte[s].add("YouTube" if yt else "Google")
@@ -176,7 +207,7 @@ def montar_la_fora(yt, achados, agora):
     out = []
     for v in vids:
         a = achados[v["id"]]
-        if not latino(v["titulo"]) or tem_marca(v["titulo"]) or v["views"] < 5_000:
+        if not latino(v["titulo"]) or tem_marca(v["titulo"]) or not relevante(v["titulo"]) or v["views"] < 5_000:
             continue
         v.update(paises=sorted(a["paises"]), janelas=sorted(a["janelas"]), sementes=sorted(a["sementes"]))
         out.append(v)
@@ -200,25 +231,31 @@ def separar_prazos(vids, por_janela=12):
     return res
 
 
-# ------------------------------------------------------------------ 3. reddit
-def reddit():
-    out, falhas = [], []
-    for sub in SUBREDDITS:
-        try:
-            d = get_json(f"https://www.reddit.com/r/{sub}/top.json?t=week&limit=15")
-        except Exception as e:
-            falhas.append(sub)
-            continue
-        for c in d.get("data", {}).get("children", []):
-            p = c.get("data", {})
-            if p.get("over_18") or p.get("stickied"):
-                continue
-            out.append(dict(id=p.get("id"), sub=sub, titulo=p.get("title", ""), votos=p.get("score", 0),
-                            comentarios=p.get("num_comments", 0),
-                            url="https://www.reddit.com" + p.get("permalink", "")))
-        time.sleep(1)
-    out.sort(key=lambda x: -(x["votos"] + 3 * x["comentarios"]))
-    return out, falhas
+# ------------------------------------------------------------------ 3. dúvidas lá fora
+def duvidas_fora():
+    out, falhas, total = [], 0, 0
+    for (hl, gl), stems in PERGUNTAS_FORA.items():
+        pontos = defaultdict(float)
+        for q in stems:
+            for yt in (True, False):
+                p = dict(client="firefox", hl=hl, gl=gl, q=q)
+                if yt:
+                    p["ds"] = "yt"
+                total += 1
+                try:
+                    d = get_json("https://suggestqueries.google.com/complete/search?" + urllib.parse.urlencode(p), 1)
+                    sug = d[1] if len(d) > 1 else []
+                except Exception:
+                    falhas += 1
+                    continue
+                for pos, t in enumerate(sug[:10]):
+                    ruim = {"the", "a", "my", "to", "of", "el", "la", "mi", "de", "que", "con", "un", "una"}
+                    if len(t.split()) >= 5 and not tem_marca(t) and norm(t).split()[-1] not in ruim:
+                        pontos[t.strip()] += 1 + (10 - pos) / 10
+                time.sleep(.15)
+        for t, pt in sorted(pontos.items(), key=lambda x: -x[1])[:15]:
+            out.append(dict(id=f"{gl}:{norm(t)}", pais=BANDEIRA[gl], texto=t, pontos=round(pt, 1)))
+    return out, falhas, total
 
 
 # ------------------------------------------------------------------ 4. calendário do Brasil
@@ -349,13 +386,12 @@ def html_relatorio(d):
         if not lst:
             p.append("<li class=aviso>nada novo neste prazo</li>")
         p.append("</ol>")
-    p.append("<h2>3. Reddit: o que motoristas perguntam lá fora</h2><p class=sub>Mais votados da semana "
-             "(em inglês). Bom para achar dúvidas que ainda não chegaram aqui.</p><ol>")
-    for r in d["reddit"][:15]:
-        p.append(f"<li><a href='{e(r['url'])}' target=_blank>{e(r['titulo'])}</a><div class=meta>r/{e(r['sub'])} · "
-                 f"{fmt(r['votos'])} votos · {fmt(r['comentarios'])} comentários</div></li>")
-    if not d["reddit"]:
-        p.append(f"<li class=aviso>{e(d['avisos'].get('reddit', 'nada novo no Reddit'))}</li>")
+    p.append("<h2>3. Dúvidas lá fora</h2><p class=sub>O que motoristas dos EUA e do México digitam no YouTube e "
+             "no Google. Se a dúvida também existe aqui, vira vídeo.</p><ol>")
+    for r in d["duvidas_fora"][:24]:
+        p.append(f"<li><span class='tag pais'>{e(r['pais'])}</span>{e(r['texto'])}</li>")
+    if not d["duvidas_fora"]:
+        p.append(f"<li class=aviso>{e(d['avisos'].get('fora', 'nada novo nesta semana'))}</li>")
     p.append("</ol><h2>4. Calendário: próximas 6 semanas</h2><p class=sub>Ganchos de época para encaixar na pauta.</p>")
     for c in d["calendario"]:
         ini = dt.date.fromisoformat(c["inicio"]).strftime("%d/%m")
@@ -390,8 +426,8 @@ def demo(agora):
             v(4, "Truques do porta-bagagens que ninguém conhece", "PT", 25, 80_000, 3_000, 45),
             v(5, "10 car features you never use", "US", 200, 6_000_000, 800_000, 720),
             v(6, "Cómo saber si tu batería está muriendo", "MX", 300, 2_000_000, 150_000, 480)]
-    red = [dict(id="r1", sub="MechanicAdvice", titulo="Is it normal for my brakes to squeal only in the morning?",
-                votos=4200, comentarios=380, url="https://www.reddit.com")]
+    red = [dict(id="us:x", pais="EUA", texto="why does my car shake when i brake at high speed", pontos=8),
+           dict(id="mx:y", pais="México", texto="por qué mi carro huele a gasolina adentro", pontos=6)]
     return duv, separar_prazos(vids), red
 
 
@@ -432,23 +468,23 @@ def main():
         vids = montar_la_fora(yt, achados, agora)
         vids = filtrar_novos(vids, lambda v: v["id"], hist, "videos", hoje, dias=120)
         prazos = separar_prazos(vids)
-        print("3/4 reddit...")
-        red, falhas_r = reddit()
-        if falhas_r and len(falhas_r) == len(SUBREDDITS):
-            avisos["reddit"] = "O Reddit não respondeu nesta rodada (bloqueio temporário)."
-        red = filtrar_novos(red, lambda r: r["id"], hist, "reddit", hoje, dias=365)
+        print("3/4 dúvidas lá fora (EUA e México)...")
+        red, falhas_f, total_f = duvidas_fora()
+        if falhas_f > total_f * .8:
+            avisos["fora"] = "O autocompletar em inglês/espanhol não respondeu nesta rodada."
+        red = filtrar_novos(red, lambda r: r["id"], hist, "fora", hoje)
         print(f"   cota usada ≈ {cota.usado}")
     print("4/4 calendário...")
     cal = calendario(hoje)
 
     d = dict(gerado_em=agora.isoformat(), gerado_legivel=dt.datetime.now().strftime("%d/%m/%Y %H:%M"),
-             paises=paises, sementes=sementes_semana, duvidas=duvidas[:40], la_fora=prazos, reddit=red[:20],
-             calendario=cal, avisos=avisos)
+             paises=paises, sementes=sementes_semana, duvidas=duvidas[:40], la_fora=prazos,
+             calendario=cal, avisos=avisos, duvidas_fora=red[:30])
     if not a.demo:
         registrar(d["duvidas"][:30], lambda x: norm(x["texto"]), hist, "duvidas", hoje)
         for lst in prazos.values():
             registrar(lst, lambda v: v["id"], hist, "videos", hoje)
-        registrar(d["reddit"][:15], lambda r: r["id"], hist, "reddit", hoje)
+        registrar(d["duvidas_fora"], lambda r: r["id"], hist, "fora", hoje)
         (PASTA / "historico.json").write_text(json.dumps(hist, ensure_ascii=False), encoding="utf-8")
     sufixo = "_DEMO" if a.demo else ""
     (PASTA / f"ultimo{sufixo}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1, default=list), encoding="utf-8")
