@@ -84,7 +84,7 @@ tablero painel headlight headlights faros farol faroles wiper wipers limpiaparab
 radiador coolant transmission embrague embreagem clutch gasolina fuel combustible combustivel suv truck camioneta
 parking estacionar taller oficina mecanica volante steering exhaust escape""".split())
 FORA = set("""gta game games gameplay roblox minecraft simulator 3d prank challenge filter meme memes asmr reaction
-funny tiktok song music trailer movie free fire mestre menu craft brush ff""".split())
+funny tiktok song music trailer movie free fire mestre menu craft brush ff coins multiplier multiplayer mobile grau""".split())
 
 
 def tem_marca(titulo):
@@ -250,7 +250,7 @@ def duvidas_fora():
                     continue
                 for pos, t in enumerate(sug[:10]):
                     ruim = {"the", "a", "my", "to", "of", "el", "la", "mi", "de", "que", "con", "un", "una"}
-                    if len(t.split()) >= 5 and not tem_marca(t) and norm(t).split()[-1] not in ruim:
+                    if len(t.split()) >= 5 and not tem_marca(t) and relevante(t) and norm(t).split()[-1] not in ruim:
                         pontos[t.strip()] += 1 + (10 - pos) / 10
                 time.sleep(.15)
         for t, pt in sorted(pontos.items(), key=lambda x: -x[1])[:15]:
