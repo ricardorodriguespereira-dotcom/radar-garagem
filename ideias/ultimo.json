@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-20T22:07:55.967035+00:00",
- "gerado_legivel": "20/10/2026 19:08",
+ "gerado_em": "2026-10-20T22:15:22.326925+00:00",
+ "gerado_legivel": "20/10/2026 19:16",
  "paises": [
   "CO",
   "CL",
@@ -25,293 +25,16 @@
  },
  "duvidas": [
   {
-   "texto": "o que fazer se o carro aquaplanar",
-   "pontos": 6.9,
-   "fontes": [
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 3089682
-   },
-   "brecha": false
-  },
-  {
-   "texto": "como saber se o carro e muito rodado",
-   "pontos": 6.9,
-   "fontes": [
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 5,
-    "melhor_views": 142982
-   },
-   "brecha": false
-  },
-  {
-   "texto": "o que fazer quando o carro está em busca e apreensão",
-   "pontos": 6.9,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 9239625
-   },
-   "brecha": false
-  },
-  {
-   "texto": "o que fazer quando o carro esquenta",
-   "pontos": 6.8,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 1531691
-   },
-   "brecha": false
-  },
-  {
-   "texto": "como saber se o carro fundiu o motor",
-   "pontos": 6.8,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 3681100
-   },
-   "brecha": false
-  },
-  {
-   "texto": "o que fazer quando o carro está queimando óleo",
-   "pontos": 6.8,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 1496746
-   },
-   "brecha": false
-  },
-  {
-   "texto": "como saber se o carro tem passagem por leilão",
-   "pontos": 6.7,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 488030
-   },
-   "brecha": false
-  },
-  {
-   "texto": "é normal o carro baixar água do radiador",
-   "pontos": 6.7,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 943147
-   },
-   "brecha": false
-  },
-  {
-   "texto": "é normal o carro fumaçar",
-   "pontos": 6.6,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 2483539
-   },
-   "brecha": false
-  },
-  {
-   "texto": "como saber se o carro cabe na vaga",
-   "pontos": 6.6,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 109227
-   },
-   "brecha": false
-  },
-  {
-   "texto": "o que fazer quando o carro acelera sozinho",
-   "pontos": 6.5,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro não reconhece o combustível",
-   "pontos": 6.3,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro tem busca e apreensão",
-   "pontos": 6.2,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "porque o carro perde a força",
-   "pontos": 6.2,
-   "fontes": [
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "é o carro é o carro",
-   "pontos": 6.1,
-   "fontes": [
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro queima a junta do cabeçote",
-   "pontos": 6.0,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro nao liga no frio",
-   "pontos": 6.0,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro automático descarrega a bateria",
-   "pontos": 5.8,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o vidro do carro não quer subir",
-   "pontos": 5.8,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro é de leilão",
-   "pontos": 5.7,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro deu calço hidráulico",
-   "pontos": 5.7,
-   "fontes": [
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro esta roubando carga",
-   "pontos": 5.7,
-   "fontes": [
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro não quer pegar",
-   "pontos": 5.7,
-   "fontes": [
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro acaba a bateria",
-   "pontos": 5.7,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro nao da partida",
-   "pontos": 5.6,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro esta licenciado",
-   "pontos": 5.5,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "é normal o rádio do carro esquenta",
-   "pontos": 5.5,
-   "fontes": [
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro começa a falhar",
-   "pontos": 5.4,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro nao liga por causa da bateria",
-   "pontos": 5.4,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro aquece",
-   "pontos": 5.4,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
    "texto": "é normal o motor do carro esquenta",
    "pontos": 5.4,
    "fontes": [
     "YouTube"
-   ]
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 1155211
+   },
+   "brecha": false
   },
   {
    "texto": "como saber se o carro queimou o cabeçote",
@@ -319,7 +42,8 @@
    "fontes": [
     "Google",
     "YouTube"
-   ]
+   ],
+   "oferta": null
   },
   {
    "texto": "como saber se o carro ja foi batido",
@@ -381,827 +105,240 @@
     "Google",
     "YouTube"
    ]
+  },
+  {
+   "texto": "o que fazer quando o carro está falhando",
+   "pontos": 4.7,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "é normal o carro ligar a ventoinha",
+   "pontos": 4.7,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "como saber se o carro esta no meu nome",
+   "pontos": 4.7,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o carro acende a luz de injeção",
+   "pontos": 4.6,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o carro não pega por causa do frio",
+   "pontos": 4.6,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o carro começa a bater tucho",
+   "pontos": 4.5,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "porque o carro fica acelerado",
+   "pontos": 4.4,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o carro morrer na subida",
+   "pontos": 4.4,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro nao liga por falta de gasolina",
+   "pontos": 4.3,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o vidro do carro fica embaçado",
+   "pontos": 4.3,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro é de enchente",
+   "pontos": 4.2,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro foi vitrificado",
+   "pontos": 4.2,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro é roubado pela placa",
+   "pontos": 4.2,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro está desalinhado",
+   "pontos": 4.2,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o carro a álcool não pega no frio",
+   "pontos": 4.2,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro está em busca e apreensão",
+   "pontos": 4.0,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "carro fazendo barulho quando acelera",
+   "pontos": 4.0,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "vale a pena carro por assinatura",
+   "pontos": 4.0,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro tem isofix",
+   "pontos": 4.0,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro tem multa pela placa",
+   "pontos": 4.0,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro tem restrição",
+   "pontos": 4.0,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "porque o carro ferve",
+   "pontos": 3.9,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "por que o carro ferve",
+   "pontos": 3.9,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "como saber se o carro deu pt",
+   "pontos": 3.9,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "é normal o carro cheirar gasolina",
+   "pontos": 3.9,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "é normal o carro esquentar rapido",
+   "pontos": 3.9,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "é normal o carro ligar a ventoinha toda hora",
+   "pontos": 3.9,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "como saber se o carro misturou água com óleo",
+   "pontos": 3.9,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o carro ferver",
+   "pontos": 3.8,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "vale a pena carro eletrico",
+   "pontos": 3.8,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
   }
  ],
  "la_fora": {
-  "semana": [
-   {
-    "id": "ybvk89Mlcv0",
-    "titulo": "How to Make 10,000 COINS in Just Under 20 Minutes🔥 | Car Parking Multiplier 2 No GG (NEW UPDATE)",
-    "canal": "Verge Gaming",
-    "views": 56106,
-    "idade": 3.2459255443865738,
-    "vpd": 17285.054519204354,
-    "inscritos": 27400,
-    "outlier": 2.047664233576642,
-    "duracao": 1133,
-    "short": false,
-    "url": "https://www.youtube.com/watch?v=ybvk89Mlcv0",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "TVdTAk1DzCo",
-    "titulo": "Significado de las luces de tu tablero ✅🚘 #motor #tablero #automotriz #mecanica",
-    "canal": "Electronica TV",
-    "views": 14981,
-    "idade": 1.0,
-    "vpd": 14981.0,
-    "inscritos": 187000,
-    "outlier": 0.08011229946524064,
-    "duracao": 68,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=TVdTAk1DzCo",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "mes",
-     "semana"
-    ],
-    "sementes": [
-     "luces del tablero significado"
-    ]
-   },
-   {
-    "id": "i5wSOsoLoTs",
-    "titulo": "Shakti Technology S5 Pressure Washer Service at Home 🔧 | Oil Grade, Tools & Full Maintenance Guide",
-    "canal": "kunal2799",
-    "views": 73635,
-    "idade": 5.2344787851273145,
-    "vpd": 14067.30316860173,
-    "inscritos": 46500,
-    "outlier": 1.5835483870967741,
-    "duracao": 542,
-    "short": false,
-    "url": "https://www.youtube.com/watch?v=i5wSOsoLoTs",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "car cleaning tips"
-    ]
-   },
-   {
-    "id": "KzksvMuE95k",
-    "titulo": "21 Car Tricks You'll Wish You Knew Sooner!",
-    "canal": "All Car Talk",
-    "views": 90679,
-    "idade": 6.981596840682871,
-    "vpd": 12988.289365492878,
-    "inscritos": 192000,
-    "outlier": 0.4722864583333333,
-    "duracao": 1391,
-    "short": false,
-    "url": "https://www.youtube.com/watch?v=KzksvMuE95k",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "car cleaning tips"
-    ]
-   },
-   {
-    "id": "9DGr1PQQb-A",
-    "titulo": "funções escondidas no elite auto Brasil #moto #grau #mobile",
-    "canal": "C.T DROID ",
-    "views": 58352,
-    "idade": 6.046828322164352,
-    "vpd": 9650.017644144718,
-    "inscritos": 129000,
-    "outlier": 0.45234108527131783,
-    "duracao": 64,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=9DGr1PQQb-A",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "09qE9EnX1Mo",
-    "titulo": "NEVER Buy These 7 OBD2 Scanners — They Lie About What's Wrong With Your Car",
-    "canal": "Car Care Clues",
-    "views": 59224,
-    "idade": 6.29690934068287,
-    "vpd": 9405.248955605488,
-    "inscritos": 366000,
-    "outlier": 0.1618142076502732,
-    "duracao": 1078,
-    "short": false,
-    "url": "https://www.youtube.com/watch?v=09qE9EnX1Mo",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "6OHOLNuhZM4",
-    "titulo": "Why Is Your Engine Making This Noise? 🤔  #cartips #automotivetools #carmaintenance",
-    "canal": "AutoFix Daily",
-    "views": 35517,
-    "idade": 4.005497303645833,
-    "vpd": 8867.063764509881,
-    "inscritos": 36600,
-    "outlier": 0.9704098360655737,
-    "duracao": 9,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=6OHOLNuhZM4",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "mes",
-     "semana"
-    ],
-    "sementes": [
-     "why is my car making this noise"
-    ]
-   },
-   {
-    "id": "zY5h_SKaxIk",
-    "titulo": "First 100 qualifying buyers buying cars using Carsido payments receive up to $75 in car service",
-    "canal": "Carsido-com",
-    "views": 30279,
-    "idade": 4.757314433275463,
-    "vpd": 6364.725398054587,
-    "inscritos": 5,
-    "outlier": 30.279,
-    "duracao": 27,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=zY5h_SKaxIk",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "first car buying tips"
-    ]
-   },
-   {
-    "id": "_zCqT6TN0Xg",
-    "titulo": "Everyone Gets This Car Myth WRONG 😳",
-    "canal": "GP Motor Company",
-    "views": 30481,
-    "idade": 5.322835266608796,
-    "vpd": 5726.459391146927,
-    "inscritos": 2270,
-    "outlier": 13.427753303964758,
-    "duracao": 35,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=_zCqT6TN0Xg",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "mes",
-     "semana"
-    ],
-    "sementes": [
-     "mitos de autos"
-    ]
-   },
-   {
-    "id": "8as_gBFpiCo",
-    "titulo": "How To Fix Car Paint Damage At Home Easily! 🚗🛠️ #amazingfacts #shortsfeed",
-    "canal": "Abhash Web",
-    "views": 36325,
-    "idade": 6.630138507349537,
-    "vpd": 5478.769404249034,
-    "inscritos": 17400,
-    "outlier": 2.0876436781609193,
-    "duracao": 23,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=8as_gBFpiCo",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "car cleaning tips"
-    ]
-   },
-   {
-    "id": "k2ZFZxrFR-Q",
-    "titulo": "Hidden Reason Your Car Grinds When You Start It",
-    "canal": "CurioScience",
-    "views": 28125,
-    "idade": 7.599224155497685,
-    "vpd": 3701.0357142383896,
-    "inscritos": 201,
-    "outlier": 28.125,
-    "duracao": 8,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=k2ZFZxrFR-Q",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "why is my car making this noise"
-    ]
-   },
-   {
-    "id": "hcygtUpaAFY",
-    "titulo": "¿Por qué suena la suspensión de mi auto? | Cambio de rodamiento #shorts",
-    "canal": "Consejos del Mecánico",
-    "views": 12360,
-    "idade": 6.136932488831018,
-    "vpd": 2014.0355173361816,
-    "inscritos": 41200,
-    "outlier": 0.3,
-    "duracao": 73,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=hcygtUpaAFY",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "why is my car making this noise"
-    ]
-   }
-  ],
-  "mes": [
-   {
-    "id": "QhOycQbLuho",
-    "titulo": "5 cosas que debes revisar SIEMPRE antes de comprar un auto usado 🚗🔍 #shorts",
-    "canal": "MALM",
-    "views": 7017988,
-    "idade": 25.944235729571762,
-    "vpd": 270502.7842466277,
-    "inscritos": 1050000,
-    "outlier": 6.683798095238095,
-    "duracao": 101,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=QhOycQbLuho",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "ano",
-     "mes"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "-zmsM031nyo",
-    "titulo": "Bad Car Noises Explained | CV Joint, Ball Joint, Wheel Bearing & Brake Sounds",
-    "canal": "Integrity 1st Car Pros",
-    "views": 115339,
-    "idade": 11.380265822164352,
-    "vpd": 10135.000517770357,
-    "inscritos": 179,
-    "outlier": 115.339,
-    "duracao": 16,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=-zmsM031nyo",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "why is my car making this noise"
-    ]
-   },
-   {
-    "id": "yPP_KJvnDpg",
-    "titulo": "\"New car Delivery se phale PDI zaroor karo\" 😱  #hoora #automobile #shorts",
-    "canal": "Hoora 360",
-    "views": 53345,
-    "idade": 26.40115702586806,
-    "vpd": 2020.5553850436233,
-    "inscritos": 1810,
-    "outlier": 29.472375690607734,
-    "duracao": 63,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=yPP_KJvnDpg",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "first car buying tips"
-    ]
-   },
-   {
-    "id": "o4VEwUQ1II4",
-    "titulo": "The Best Way to Clean the INSIDE of Your Windshield!",
-    "canal": "Clean That Up",
-    "views": 3975458,
-    "idade": 17.338714896238425,
-    "vpd": 229282.1598250319,
-    "inscritos": 1380000,
-    "outlier": 2.8807666666666667,
-    "duracao": 539,
-    "short": false,
-    "url": "https://www.youtube.com/watch?v=o4VEwUQ1II4",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "car cleaning tips"
-    ]
-   },
-   {
-    "id": "pP98tDLy-VI",
-    "titulo": "Truco para Estacionar y Calcular la Distancia a la Pared Sin Rozar",
-    "canal": "Daniel Fabian Ramirez",
-    "views": 1904665,
-    "idade": 19.878772766608797,
-    "vpd": 95814.0133881577,
-    "inscritos": 470000,
-    "outlier": 4.052478723404255,
-    "duracao": 112,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=pP98tDLy-VI",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "PtB-fBKdWR0",
-    "titulo": "Cómo cambiar CRUCETA del cardán sin dañarla 🔧 Truco Mecánico #Shorts",
-    "canal": "Mecánica Tips & Trucos",
-    "views": 1824395,
-    "idade": 16.4218514703125,
-    "vpd": 111095.57307214414,
-    "inscritos": 452000,
-    "outlier": 4.036272123893806,
-    "duracao": 83,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=PtB-fBKdWR0",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "WEHhllyLsIY",
-    "titulo": "Luxury Car Buying Guide: Best Comfort Choices for 1–1.5 Crores #shorts #podcast #cars #luxurycars",
-    "canal": "Rahulmalodia Insights",
-    "views": 59122,
-    "idade": 27.4934602666088,
-    "vpd": 2150.4022930065485,
-    "inscritos": 3650,
-    "outlier": 16.197808219178082,
-    "duracao": 50,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=WEHhllyLsIY",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "first car buying tips"
-    ]
-   },
-   {
-    "id": "p3YQy5c_Bts",
-    "titulo": "6 Clever Car Repair Hacks Every Driver Should Know #tips #lifehacks",
-    "canal": "Weird Life hacks",
-    "views": 528266,
-    "idade": 14.255277396238426,
-    "vpd": 37057.574210333834,
-    "inscritos": 114000,
-    "outlier": 4.633912280701755,
-    "duracao": 76,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=p3YQy5c_Bts",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "car cleaning tips"
-    ]
-   },
-   {
-    "id": "EQ8K91dfqEY",
-    "titulo": "Cheap Car Mods to Make Your Car LOUD",
-    "canal": "Robert Dalati",
-    "views": 300986,
-    "idade": 10.322927859201389,
-    "vpd": 29157.038013368925,
-    "inscritos": 70200,
-    "outlier": 4.287549857549857,
-    "duracao": 67,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=EQ8K91dfqEY",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "why is my car making this noise"
-    ]
-   },
-   {
-    "id": "xyC3KAHSbnY",
-    "titulo": "Cómo abrir la puerta de tu auto si olvidaste las llaves adentro",
-    "canal": "Daniel Fabian Ramirez",
-    "views": 910526,
-    "idade": 14.092939433275463,
-    "vpd": 64608.66480772044,
-    "inscritos": 470000,
-    "outlier": 1.9372893617021276,
-    "duracao": 62,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=xyC3KAHSbnY",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "EiaUH1mCa7M",
-    "titulo": "Best Cars Under ₹7 Lakh 😳 Which Car Should You Buy in 2026? #cars #shorts #viral",
-    "canal": "Motor Thug",
-    "views": 21897,
-    "idade": 8.38048572957176,
-    "vpd": 2612.8557110637703,
-    "inscritos": 2080,
-    "outlier": 10.527403846153845,
-    "duracao": 32,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=EiaUH1mCa7M",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "first car buying tips"
-    ]
-   },
-   {
-    "id": "Gi_h_jLe8pw",
-    "titulo": "Cómo Abrir Tu Auto Sin Llaves Usando Tu Celular (Truco Secreto)",
-    "canal": "Daniel Fabian Ramirez",
-    "views": 695979,
-    "idade": 15.295682488831018,
-    "vpd": 45501.663656277335,
-    "inscritos": 470000,
-    "outlier": 1.4808063829787235,
-    "duracao": 63,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=Gi_h_jLe8pw",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   }
-  ],
-  "ano": [
-   {
-    "id": "Z4q42tPDfgM",
-    "titulo": "MUST HAVE Car Accessories!",
-    "canal": "MotorOctane Garage",
-    "views": 9185154,
-    "idade": 258.4214926740162,
-    "vpd": 35543.30526055177,
-    "inscritos": 183000,
-    "outlier": 50.192098360655734,
-    "duracao": 44,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=Z4q42tPDfgM",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "car cleaning tips"
-    ]
-   },
-   {
-    "id": "W9tQO_S-Ye4",
-    "titulo": "How To Buy Your First Car",
-    "canal": "Mark Tilbury",
-    "views": 8832124,
-    "idade": 236.1722565629051,
-    "vpd": 37396.95817170439,
-    "inscritos": 9260000,
-    "outlier": 0.9537930885529158,
-    "duracao": 26,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=W9tQO_S-Ye4",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "first car buying tips"
-    ]
-   },
-   {
-    "id": "DJlujq7FDpE",
-    "titulo": "Cómo enderezar la suspensión de un auto 🔥 (Alineación Camber) #Shorts",
-    "canal": "Mecánica Tips & Trucos",
-    "views": 8592164,
-    "idade": 91.8940852666088,
-    "vpd": 93500.72940028603,
-    "inscritos": 452000,
-    "outlier": 19.00921238938053,
-    "duracao": 71,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=DJlujq7FDpE",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "PKliPbhpPtM",
-    "titulo": "🚘😱 TRUCOS Y ESPACIOS OCULTOS QUE TIENE TU AUTO SEGÚN SU MARCA #auto #carros",
-    "canal": "AIRIZU MOTORS",
-    "views": 8571406,
-    "idade": 353.9990852666088,
-    "vpd": 24213.07386583946,
-    "inscritos": 300000,
-    "outlier": 28.571353333333334,
-    "duracao": 66,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=PKliPbhpPtM",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "Vb6oDzTZLEw",
-    "titulo": "Trucos simples que hacen tu auto más fácil de usar",
-    "canal": "Guia Autos Pros",
-    "views": 8472404,
-    "idade": 225.07530054438658,
-    "vpd": 37642.53109740568,
-    "inscritos": 335000,
-    "outlier": 25.290758208955225,
-    "duracao": 74,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=Vb6oDzTZLEw",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "3we1Cd3erw8",
-    "titulo": "Déjate de trucos con Rastreator: Compara y ahorra en tu seguro de coche - Anuncio 25s",
-    "canal": "Rastreator",
-    "views": 7810993,
-    "idade": 218.55622647031248,
-    "vpd": 35739.05500725235,
-    "inscritos": 3080,
-    "outlier": 2536.0366883116885,
-    "duracao": 26,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=3we1Cd3erw8",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "1aTH0KM511A",
-    "titulo": "¿Por qué mi auto echa HUMO BLANCO por el escape? (Solución) #shorts",
-    "canal": "Mecánica Tips & Trucos",
-    "views": 7808271,
-    "idade": 99.92209452586805,
-    "vpd": 78143.5881328386,
-    "inscritos": 452000,
-    "outlier": 17.274935840707965,
-    "duracao": 116,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=1aTH0KM511A",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "6artGzE0QDg",
-    "titulo": "What Sound Does Your Car Make? #asher #shorts",
-    "canal": "Asher Lara",
-    "views": 4456540,
-    "idade": 105.68011535920138,
-    "vpd": 42170.09022797189,
-    "inscritos": 9000000,
-    "outlier": 0.4951711111111111,
-    "duracao": 21,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=6artGzE0QDg",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "why is my car making this noise"
-    ]
-   },
-   {
-    "id": "2hs99Rbr8ak",
-    "titulo": "5 Trucos para el Coche que Todo Conductor Debería Conoce!",
-    "canal": "Trucética",
-    "views": 4315551,
-    "idade": 85.0891315629051,
-    "vpd": 50718.0049993762,
-    "inscritos": 1300000,
-    "outlier": 3.3196546153846156,
-    "duracao": 118,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=2hs99Rbr8ak",
-    "paises": [
-     "CL",
-     "CO"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "kkUd-0-8-v8",
-    "titulo": "4 Trucos Ocultos de tu Auto que Deberías Activar Hoy Mismo 🚗💡",
-    "canal": "Daniel Fabian Ramirez",
-    "views": 3788303,
-    "idade": 93.35379591475694,
-    "vpd": 40580.06386220405,
-    "inscritos": 470000,
-    "outlier": 8.06021914893617,
-    "duracao": 71,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=kkUd-0-8-v8",
-    "paises": [
-     "CO"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "trucos para el auto"
-    ]
-   },
-   {
-    "id": "JQeGC2UDL44",
-    "titulo": "Best Cars to Buy From 5 Lakhs - 1 Crore || #BestBuy #carbuyingtips #BudgetCars #CarsPrices #BestCars",
-    "canal": "PrasadAutomobile",
-    "views": 3495870,
-    "idade": 225.3601500814236,
-    "vpd": 15512.369861028788,
-    "inscritos": 614000,
-    "outlier": 5.693599348534202,
-    "duracao": 128,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=JQeGC2UDL44",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "first car buying tips"
-    ]
-   },
-   {
-    "id": "Z37NLbOa8T4",
-    "titulo": "Steering Noise When Turning? Common Causes Explained (Tie Rod, Ball Joint & More) #suspensionparts",
-    "canal": "DPANS AUTO PARTS",
-    "views": 2979875,
-    "idade": 110.76181674809027,
-    "vpd": 26903.45001091162,
-    "inscritos": 7430,
-    "outlier": 401.0598923283984,
-    "duracao": 15,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=Z37NLbOa8T4",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "why is my car making this noise"
-    ]
-   }
-  ]
+  "semana": [],
+  "mes": [],
+  "ano": []
  },
  "calendario": [
   {
@@ -1250,183 +387,15 @@
  "avisos": {},
  "duvidas_fora": [
   {
-   "id": "us:why does my car shake when i brake",
+   "id": "us:how do i know if my car needs an alignment",
    "pais": "EUA",
-   "texto": "why does my car shake when i brake",
-   "pontos": 4.0
-  },
-  {
-   "id": "us:how do i know if my car battery is dead",
-   "pais": "EUA",
-   "texto": "how do i know if my car battery is dead",
-   "pontos": 4.0
-  },
-  {
-   "id": "us:why does my car smell like gas",
-   "pais": "EUA",
-   "texto": "why does my car smell like gas",
-   "pontos": 3.8
-  },
-  {
-   "id": "us:what does it mean when your car says engine power reduced",
-   "pais": "EUA",
-   "texto": "what does it mean when your car says engine power reduced",
-   "pontos": 3.8
-  },
-  {
-   "id": "us:should i warm up my car",
-   "pais": "EUA",
-   "texto": "should i warm up my car",
-   "pontos": 3.8
-  },
-  {
-   "id": "us:how often should i wash my hair",
-   "pais": "EUA",
-   "texto": "how often should i wash my hair",
-   "pontos": 3.7
-  },
-  {
-   "id": "us:how often should i change my oil",
-   "pais": "EUA",
-   "texto": "how often should i change my oil",
-   "pontos": 3.6
-  },
-  {
-   "id": "us:why does my car shake when i drive",
-   "pais": "EUA",
-   "texto": "why does my car shake when i drive",
-   "pontos": 3.5
-  },
-  {
-   "id": "us:what happens if you swallow gum",
-   "pais": "EUA",
-   "texto": "what happens if you swallow gum",
-   "pontos": 3.5
-  },
-  {
-   "id": "us:why does my car smell like rotten eggs",
-   "pais": "EUA",
-   "texto": "why does my car smell like rotten eggs",
-   "pontos": 3.4
-  },
-  {
-   "id": "us:why does my car battery keep dying",
-   "pais": "EUA",
-   "texto": "why does my car battery keep dying",
-   "pontos": 3.2
-  },
-  {
-   "id": "us:can i drive with a bad wheel bearing",
-   "pais": "EUA",
-   "texto": "can i drive with a bad wheel bearing",
-   "pontos": 3.2
-  },
-  {
-   "id": "us:can i drive with a nail in my tire",
-   "pais": "EUA",
-   "texto": "can i drive with a nail in my tire",
-   "pontos": 3.2
-  },
-  {
-   "id": "us:what does it mean when your car smells like rotten eggs",
-   "pais": "EUA",
-   "texto": "what does it mean when your car smells like rotten eggs",
-   "pontos": 3.2
-  },
-  {
-   "id": "us:why does my car shake when i accelerate",
-   "pais": "EUA",
-   "texto": "why does my car shake when i accelerate",
+   "texto": "how do i know if my car needs an alignment",
    "pontos": 3.1
   },
   {
-   "id": "mx:que pasa si mi carro no tiene catalizador",
-   "pais": "México",
-   "texto": "qué pasa si mi carro no tiene catalizador",
-   "pontos": 3.9
-  },
-  {
-   "id": "mx:por que mi carro no prende",
-   "pais": "México",
-   "texto": "por qué mi carro no prende",
-   "pontos": 3.8
-  },
-  {
-   "id": "mx:cada cuanto se cambia el aceite de una moto",
-   "pais": "México",
-   "texto": "cada cuánto se cambia el aceite de una moto",
-   "pontos": 3.8
-  },
-  {
-   "id": "mx:que pasa si mi carro se queda sin aceite",
-   "pais": "México",
-   "texto": "qué pasa si mi carro se queda sin aceite",
-   "pontos": 3.7
-  },
-  {
-   "id": "mx:se puede manejar con un solo ojo",
-   "pais": "México",
-   "texto": "se puede manejar con un solo ojo",
-   "pontos": 3.7
-  },
-  {
-   "id": "mx:por que mi auto gasta mucha gasolina",
-   "pais": "México",
-   "texto": "por qué mi auto gasta mucha gasolina",
-   "pontos": 3.6
-  },
-  {
-   "id": "mx:por que mi carro no da marcha",
-   "pais": "México",
-   "texto": "por qué mi carro no da marcha",
-   "pontos": 3.3
-  },
-  {
-   "id": "mx:es normal que mi carro tira agua por el escape",
-   "pais": "México",
-   "texto": "es normal que mi carro tira agua por el escape",
-   "pontos": 3.3
-  },
-  {
-   "id": "mx:por que mi carro se jalonea",
-   "pais": "México",
-   "texto": "por qué mi carro se jalonea",
-   "pontos": 3.2
-  },
-  {
-   "id": "mx:por que mi carro gasta mucha gasolina",
-   "pais": "México",
-   "texto": "por qué mi carro gasta mucha gasolina",
-   "pontos": 3.2
-  },
-  {
-   "id": "mx:como saber si mi carro es robado",
-   "pais": "México",
-   "texto": "cómo saber si mi carro es robado",
-   "pontos": 3.2
-  },
-  {
-   "id": "mx:por que mi carro huele mucho a gasolina",
-   "pais": "México",
-   "texto": "por qué mi carro huele mucho a gasolina",
-   "pontos": 3.1
-  },
-  {
-   "id": "mx:como saber si mi carro tiene un corto",
-   "pais": "México",
-   "texto": "cómo saber si mi carro tiene un corto",
-   "pontos": 3.1
-  },
-  {
-   "id": "mx:por que mi auto no enciende",
-   "pais": "México",
-   "texto": "por qué mi auto no enciende",
-   "pontos": 3.1
-  },
-  {
-   "id": "mx:se puede manejar con el freno de mano puesto",
-   "pais": "México",
-   "texto": "se puede manejar con el freno de mano puesto",
+   "id": "us:how do i know if my car needs coolant",
+   "pais": "EUA",
+   "texto": "how do i know if my car needs coolant",
    "pontos": 3.0
   }
  ]
