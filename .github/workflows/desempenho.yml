@@ -2,7 +2,7 @@ name: Desempenho
 
 on:
   schedule:
-    - cron: "17 20 * * 5"
+    - cron: "17 13 * * 5"
   workflow_dispatch:
 
 permissions:
