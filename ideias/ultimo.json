@@ -1,320 +1,125 @@
 {
- "gerado_em": "2026-11-05T17:37:16.402663+00:00",
- "gerado_legivel": "05/11/2026 14:38",
+ "gerado_em": "2026-11-12T17:43:24.786871+00:00",
+ "gerado_legivel": "12/11/2026 14:44",
  "paises": [
-  "US",
-  "MX",
-  "PT"
+  "GB",
+  "ES",
+  "AU"
  ],
  "sementes": {
   "en": [
-   "things your car is trying to tell you",
-   "car myths busted",
-   "how to check your car before a trip"
+   "driving tips nobody tells you",
+   "car features you didn't know",
+   "car hacks that actually work"
   ],
   "es": [
-   "consejos para conducir principiantes",
-   "mantenimiento del auto tú mismo",
-   "errores al manejar"
+   "luces del tablero significado",
+   "mitos de autos",
+   "trucos para el auto"
   ],
   "pt": [
-   "revisão antes de viajar",
-   "dicas condução principiantes",
-   "manutenção do carro"
+   "erros ao conduzir",
+   "luzes do painel",
+   "mitos dos carros"
   ]
  },
  "duvidas": [
   {
-   "texto": "o que fazer quando o carro não quer dar partida",
-   "pontos": 4.9,
+   "texto": "por que o carro do iml se chama rabecão",
+   "pontos": 3.5,
    "fontes": [
-    "Google",
-    "YouTube"
+    "Google"
    ],
    "oferta": {
-    "videos": 10,
-    "melhor_views": 887398
+    "videos": 0,
+    "melhor_views": 0
    },
-   "brecha": false
+   "brecha": true
   },
   {
-   "texto": "o que fazer quando o carro está consumindo muita gasolina",
-   "pontos": 4.7,
-   "fontes": [
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 5040610
-   },
-   "brecha": false
-  },
-  {
-   "texto": "como saber se o carro ta gerando",
+   "texto": "o que fazer quando o carro está consumindo muito combustível",
    "pontos": 4.6,
    "fontes": [
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 1250760
-   },
-   "brecha": false
-  },
-  {
-   "texto": "o que fazer quando o carro não quer entrar marcha",
-   "pontos": 4.5,
-   "fontes": [
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 1110232
-   },
-   "brecha": false
-  },
-  {
-   "texto": "o que fazer quando o carro trava com a chave dentro",
-   "pontos": 4.4,
-   "fontes": [
     "Google"
    ],
    "oferta": {
     "videos": 10,
-    "melhor_views": 2144851
+    "melhor_views": 3756531
    },
    "brecha": false
   },
   {
-   "texto": "como saber se o carro foi voltado a quilometragem",
-   "pontos": 4.4,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 776316
-   },
-   "brecha": false
-  },
-  {
-   "texto": "como funciona o desenrola brasil",
-   "pontos": 4.0,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 68863838
-   },
-   "brecha": false
-  },
-  {
-   "texto": "como saber se o carro saiu do ponto",
-   "pontos": 3.9,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 9,
-    "melhor_views": 4470736
-   },
-   "brecha": false
-  },
-  {
-   "texto": "o que fazer quando o carro tá queimando óleo",
-   "pontos": 3.8,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 1498469
-   },
-   "brecha": false
-  },
-  {
-   "texto": "qual a diferença entre democratas e republicanos",
-   "pontos": 3.8,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 798292
-   },
-   "brecha": false
-  },
-  {
-   "texto": "como saber se o carro ferveu",
-   "pontos": 3.7,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro queimou a junta",
-   "pontos": 3.7,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro morrer",
-   "pontos": 3.7,
-   "fontes": [
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "é normal o carro cheirar queimado",
-   "pontos": 3.7,
-   "fontes": [
-    "Google"
-   ]
-  },
-  {
-   "texto": "porque os carros pegam fogo",
+   "texto": "por que o carro fica acelerando sozinho",
    "pontos": 3.6,
    "fontes": [
-    "YouTube"
-   ]
+    "Google"
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 1028275
+   },
+   "brecha": false
   },
   {
-   "texto": "como funciona o saque aniversário",
+   "texto": "é normal o carro soltar água pelo escapamento",
    "pontos": 3.6,
    "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "quanto custa trocar a bateria do iphone 11",
-   "pontos": 3.6,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro ja foi de leilao",
-   "pontos": 3.6,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "posso dirigir com a licença de aprendizagem",
-   "pontos": 3.5,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro acabou a gasolina",
-   "pontos": 3.5,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro deve ao banco",
-   "pontos": 3.5,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro foi de leilão",
-   "pontos": 3.5,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro foi guinchado",
-   "pontos": 3.5,
-   "fontes": [
     "Google"
-   ]
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 8597266
+   },
+   "brecha": false
   },
   {
-   "texto": "por que o carro baixa óleo",
+   "texto": "o que fazer quando o carro tá falhando",
    "pontos": 3.5,
-   "fontes": [
-    "Google"
-   ]
-  },
-  {
-   "texto": "é normal o carro baixar água do reservatório",
-   "pontos": 3.5,
-   "fontes": [
-    "Google"
-   ]
-  },
-  {
-   "texto": "é normal o carro queimar um pouco de óleo",
-   "pontos": 3.5,
-   "fontes": [
-    "Google"
-   ]
-  },
-  {
-   "texto": "primeira vez dirigindo na auto escola",
-   "pontos": 3.4,
    "fontes": [
     "Google",
     "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro descarregou a bateria",
-   "pontos": 3.4,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro ja esta no meu nome",
-   "pontos": 3.4,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro não liga de jeito nenhum",
-   "pontos": 3.4,
-   "fontes": [
-    "Google"
-   ]
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 18222095
+   },
+   "brecha": false
   },
   {
    "texto": "o que fazer quando o carro não liga na chave",
    "pontos": 3.4,
    "fontes": [
     "Google"
-   ]
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 2278282
+   },
+   "brecha": false
   },
   {
    "texto": "porque o carro não quer pegar",
    "pontos": 3.4,
    "fontes": [
     "YouTube"
-   ]
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 10708333
+   },
+   "brecha": false
+  },
+  {
+   "texto": "por que o carro fica acelerado",
+   "pontos": 3.4,
+   "fontes": [
+    "Google"
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 24819701
+   },
+   "brecha": false
   },
   {
    "texto": "como saber se o carro deu perda total",
@@ -322,862 +127,1073 @@
    "fontes": [
     "Google",
     "YouTube"
-   ]
-  },
-  {
-   "texto": "por que o carro do iml se chama rabecão",
-   "pontos": 3.4,
-   "fontes": [
-    "Google"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro foi vendido e não transferido",
-   "pontos": 3.4,
-   "fontes": [
-    "Google"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro tá falhando",
-   "pontos": 3.4,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 552891
+   },
+   "brecha": false
   },
   {
    "texto": "é normal o carro joga água pela descarga",
    "pontos": 3.4,
    "fontes": [
     "YouTube"
-   ]
+   ],
+   "oferta": {
+    "videos": 5,
+    "melhor_views": 264915
+   },
+   "brecha": false
   },
   {
-   "texto": "é normal o carro fumar na primeira partida",
-   "pontos": 3.4,
+   "texto": "posso dirigir com a ppd digital",
+   "pontos": 3.3,
    "fontes": [
-    "Google"
+    "Google",
+    "YouTube"
    ]
   },
   {
-   "texto": "por que o carro fica acelerado",
+   "texto": "vale a pena carro de leilao",
+   "pontos": 3.3,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "vale a pena carro hibrido",
+   "pontos": 3.3,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "vale a pena carro eletrico no brasil",
+   "pontos": 3.3,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro acabou a bateria",
+   "pontos": 3.3,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro é clonado",
+   "pontos": 3.3,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro tem gasolina",
+   "pontos": 3.3,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o ipva do carro está pago",
+   "pontos": 3.3,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro ja foi uber",
+   "pontos": 3.3,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o carro fecha com a chave dentro",
+   "pontos": 3.3,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o carro foi vendido e não transferido",
    "pontos": 3.3,
    "fontes": [
     "Google"
    ]
   },
   {
-   "texto": "o que fazer quando o carro está com busca e apreensão",
+   "texto": "é normal o carro chegar a 100 graus",
    "pontos": 3.3,
    "fontes": [
     "Google"
+   ]
+  },
+  {
+   "texto": "é normal o carro cheirar gasolina por dentro",
+   "pontos": 3.3,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "é normal o carro nao ligar no frio",
+   "pontos": 3.3,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "como saber se o carro esta fora de ponto",
+   "pontos": 3.2,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "por que o carro não liga",
+   "pontos": 3.2,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "é normal o carro ficar com cheiro de gasolina",
+   "pontos": 3.2,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "é normal o carro sair fumaça do escapamento",
+   "pontos": 3.2,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "posso dirigir com a cnh digital",
+   "pontos": 3.2,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como funciona o consórcio",
+   "pontos": 3.2,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "quanto custa trocar a tela do celular",
+   "pontos": 3.2,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro esta com a junta queimada",
+   "pontos": 3.2,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o meu carro tem rastreador",
+   "pontos": 3.2,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o meu carro tem multa",
+   "pontos": 3.2,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro passou por enchente",
+   "pontos": 3.2,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "porque o carro queima a junta do cabeçote",
+   "pontos": 3.2,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "por que o carro acende a luz da injeção",
+   "pontos": 3.2,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "porque o carro fica oscilando",
+   "pontos": 3.2,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o volante do carro trava",
+   "pontos": 3.2,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o carro está fumando",
+   "pontos": 3.2,
+   "fontes": [
+    "Google",
+    "YouTube"
    ]
   }
  ],
  "la_fora": {
   "semana": [
    {
-    "id": "DHrcQw3hcqs",
-    "titulo": "Car's Air Conditioner Myth Busted",
-    "canal": "Autofacts Bharat Academy",
-    "views": 118229,
-    "idade": 3.1269954011921293,
-    "vpd": 37809.13779244019,
-    "inscritos": 125000,
-    "outlier": 0.945832,
-    "duracao": 106,
+    "id": "dK8KH0qBb9E",
+    "titulo": "Smartest Car Hacks",
+    "canal": "Under The Hood",
+    "views": 354490,
+    "idade": 2.9024859591550927,
+    "vpd": 122133.2350917526,
+    "inscritos": 60300,
+    "outlier": 5.878772802653399,
+    "duracao": 33,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=DHrcQw3hcqs",
+    "url": "https://www.youtube.com/watch?v=dK8KH0qBb9E",
     "paises": [
-     "US"
-    ],
-    "janelas": [
-     "mes",
-     "semana"
-    ],
-    "sementes": [
-     "car myths busted"
-    ]
-   },
-   {
-    "id": "kuGdAIQUtq0",
-    "titulo": "Driving lesson for new driver",
-    "canal": "Carzein",
-    "views": 21273,
-    "idade": 1.1333958641550925,
-    "vpd": 18769.25853779984,
-    "inscritos": 147000,
-    "outlier": 0.1447142857142857,
-    "duracao": 16,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=kuGdAIQUtq0",
-    "paises": [
-     "MX"
+     "ES"
     ],
     "janelas": [
      "semana"
     ],
     "sementes": [
-     "consejos para conducir principiantes"
+     "trucos para el auto"
     ]
    },
    {
-    "id": "mTLfPwAFx3Q",
-    "titulo": "DIY brake replacement tip 🫵 #brakes #diy #cars #mechanic #brakerepair",
-    "canal": "My Mobile Mechanic 978",
-    "views": 56824,
-    "idade": 3.2757916974884256,
-    "vpd": 17346.646321732664,
-    "inscritos": 158000,
-    "outlier": 0.3596455696202532,
-    "duracao": 19,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=mTLfPwAFx3Q",
+    "id": "uXMIsUsX8VQ",
+    "titulo": "Genius DIY Idea! Turn An Old Car Wheel Into An Amazing 2-In-1 Creation!",
+    "canal": "Alva Welding",
+    "views": 320289,
+    "idade": 6.147925773969907,
+    "vpd": 52097.083109898944,
+    "inscritos": 532000,
+    "outlier": 0.602046992481203,
+    "duracao": 988,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=uXMIsUsX8VQ",
     "paises": [
-     "MX"
-    ],
-    "janelas": [
-     "mes",
-     "semana"
-    ],
-    "sementes": [
-     "mantenimiento del auto tú mismo"
-    ]
-   },
-   {
-    "id": "cTVfAOLgGW8",
-    "titulo": "O mecânico que consertou um carro INVISÍVEL! 🚗👻😂",
-    "canal": "teorIA do Alexander",
-    "views": 71342,
-    "idade": 4.129993086377315,
-    "vpd": 17274.12092657489,
-    "inscritos": 861,
-    "outlier": 71.342,
-    "duracao": 10,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=cTVfAOLgGW8",
-    "paises": [
-     "PT"
+     "ES"
     ],
     "janelas": [
      "semana"
     ],
     "sementes": [
-     "manutenção do carro"
+     "trucos para el auto"
     ]
    },
    {
-    "id": "9hD37qP82Wg",
-    "titulo": "Como é feita a limpeza do evaporador do ar-condicionado do carro?",
-    "canal": "Mundo da Curiosidade ",
-    "views": 73762,
-    "idade": 5.150641234525462,
-    "vpd": 14320.935324627755,
-    "inscritos": 233000,
-    "outlier": 0.31657510729613736,
-    "duracao": 21,
+    "id": "NJYiHGsuJrk",
+    "titulo": "El truco para descongelar la puerta del coche! 🚗 #shorts",
+    "canal": "Mundo Curioso Shorts",
+    "views": 133223,
+    "idade": 5.822312348043981,
+    "vpd": 22881.458780677844,
+    "inscritos": 81200,
+    "outlier": 1.6406773399014778,
+    "duracao": 23,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=9hD37qP82Wg",
+    "url": "https://www.youtube.com/watch?v=NJYiHGsuJrk",
     "paises": [
-     "PT"
+     "ES"
     ],
     "janelas": [
      "semana"
     ],
     "sementes": [
-     "manutenção do carro"
+     "trucos para el auto"
     ]
    },
    {
-    "id": "kPw6SuygP-4",
-    "titulo": "Por qué mi carro gasta mucha gasolina y pierde potencia #shorts",
-    "canal": "Mecánica Tips & Trucos",
-    "views": 44974,
-    "idade": 3.8659653085995367,
-    "vpd": 11633.317013983251,
-    "inscritos": 462000,
-    "outlier": 0.09734632034632035,
+    "id": "8m4ys2rM3NU",
+    "titulo": "Como CONSEGUIR TODAS LAS MONEDAS Y SECRETOS de GASOLINERA Y AUTOLAVADO AUTOS 🤩 en Avatar World",
+    "canal": "Alicia Gameplays",
+    "views": 110304,
+    "idade": 6.974222070266204,
+    "vpd": 15815.957520232752,
+    "inscritos": 2250000,
+    "outlier": 0.049024,
+    "duracao": 1237,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=8m4ys2rM3NU",
+    "paises": [
+     "ES"
+    ],
+    "janelas": [
+     "semana"
+    ],
+    "sementes": [
+     "trucos para el auto"
+    ]
+   },
+   {
+    "id": "k9EUKm1bwAw",
+    "titulo": "Funciones ocultas de fábrica en tu auto que no conocías 🛠️",
+    "canal": "Tania Lorena Cabrera sayritupac",
+    "views": 22481,
+    "idade": 1.7220229961921294,
+    "vpd": 13054.994067856078,
+    "inscritos": 5270,
+    "outlier": 4.26584440227704,
+    "duracao": 79,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=k9EUKm1bwAw",
+    "paises": [
+     "AU",
+     "GB"
+    ],
+    "janelas": [
+     "semana"
+    ],
+    "sementes": [
+     "car features you didn't know"
+    ]
+   },
+   {
+    "id": "haPAqciEOLg",
+    "titulo": "🚨 SE ENCENDIÓ la luz del CHECK ENGINE? El secreto para APAGARLA sin gastar 🚗",
+    "canal": "Tips De Mecanica",
+    "views": 77992,
+    "idade": 6.721536885081018,
+    "vpd": 11603.298670146318,
+    "inscritos": 76900,
+    "outlier": 1.0142002600780233,
     "duracao": 66,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=kPw6SuygP-4",
+    "url": "https://www.youtube.com/watch?v=haPAqciEOLg",
     "paises": [
-     "PT"
+     "ES"
     ],
     "janelas": [
+     "ano",
+     "mes",
      "semana"
     ],
     "sementes": [
-     "manutenção do carro"
+     "luces del tablero significado"
     ]
    },
    {
-    "id": "ScBfYLDIZ7s",
-    "titulo": "4 Engine Parts You Can Clean Yourself #Shorts #CarRepair  #MechanicSecrets #CarMaintenance",
-    "canal": "Almani Technical Channel",
-    "views": 55353,
-    "idade": 7.153465308599538,
-    "vpd": 7737.928068716206,
-    "inscritos": 115000,
-    "outlier": 0.4813304347826087,
-    "duracao": 35,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=ScBfYLDIZ7s",
-    "paises": [
-     "MX"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "mantenimiento del auto tú mismo"
-    ]
-   },
-   {
-    "id": "tF63L-L2IgM",
-    "titulo": "Existe manutenção de carro elétrico?",
-    "canal": "Ponto Motor",
-    "views": 56093,
-    "idade": 7.796532438229167,
-    "vpd": 7194.608685901966,
-    "inscritos": 1590,
-    "outlier": 35.278616352201254,
-    "duracao": 24,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=tF63L-L2IgM",
-    "paises": [
-     "PT"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "manutenção do carro"
-    ]
-   },
-   {
-    "id": "bfNKZSpWk8k",
-    "titulo": "😅🔥🔥✅ FOLLOW FOR MORE VIDEO. #mecanica #dicas #manutencao #moto #carros #netshowcar",
-    "canal": "NetShowCar",
-    "views": 5966,
-    "idade": 1.0,
-    "vpd": 5966.0,
-    "inscritos": 23100,
-    "outlier": 0.25826839826839826,
-    "duracao": 18,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=bfNKZSpWk8k",
-    "paises": [
-     "MX"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "mantenimiento del auto tú mismo"
-    ]
-   },
-   {
-    "id": "n-bnCHdRAO8",
-    "titulo": "Driving Basics for new drivers #Shorts",
+    "id": "6D2fp23ZbyM",
+    "titulo": "It avoids accidents when you know your tyre 🛞 position",
     "canal": "Carzein",
-    "views": 28434,
-    "idade": 6.518511604895834,
-    "vpd": 4362.03871734219,
-    "inscritos": 147000,
-    "outlier": 0.19342857142857142,
-    "duracao": 15,
+    "views": 51741,
+    "idade": 5.572057718414352,
+    "vpd": 9285.797566132176,
+    "inscritos": 148000,
+    "outlier": 0.34960135135135134,
+    "duracao": 17,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=n-bnCHdRAO8",
+    "url": "https://www.youtube.com/watch?v=6D2fp23ZbyM",
     "paises": [
-     "MX"
+     "ES"
     ],
     "janelas": [
      "semana"
     ],
     "sementes": [
-     "consejos para conducir principiantes"
+     "trucos para el auto"
     ]
    },
    {
-    "id": "bKCZaXFf3yk",
-    "titulo": "El 80% ARRUINA su Caja de Cambios por este Error (Cómo Manejar Manual)",
-    "canal": "Tips De Mecanica",
-    "views": 19227,
-    "idade": 4.637377345636574,
-    "vpd": 4146.093484950318,
-    "inscritos": 66900,
-    "outlier": 0.28739910313901346,
-    "duracao": 78,
+    "id": "ZZqcAuTqY80",
+    "titulo": "10 luces del tablero que nunca debes ignorar #ConsejosDeConduccion #SeguridadVial #LucesDelTablero",
+    "canal": "ESENCIAL",
+    "views": 53606,
+    "idade": 5.779731329525463,
+    "vpd": 9274.825583354797,
+    "inscritos": 13000,
+    "outlier": 4.123538461538462,
+    "duracao": 5,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=bKCZaXFf3yk",
+    "url": "https://www.youtube.com/watch?v=ZZqcAuTqY80",
     "paises": [
-     "MX"
+     "ES"
     ],
     "janelas": [
      "mes",
      "semana"
     ],
     "sementes": [
-     "errores al manejar"
+     "luces del tablero significado"
     ]
    },
    {
-    "id": "nh91Caogxn8",
-    "titulo": "Car Driving Training for Beginners | How to Drive a Car & Car Parking Tips",
-    "canal": "Carzein",
-    "views": 8674,
-    "idade": 3.5616597530439815,
-    "vpd": 2435.3814236710127,
-    "inscritos": 147000,
-    "outlier": 0.059006802721088436,
-    "duracao": 16,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=nh91Caogxn8",
+    "id": "nyGhgT95yec",
+    "titulo": "The Golf Driver Setup Mistake Costing You 30 Yards",
+    "canal": "Mark Crossfield",
+    "views": 19106,
+    "idade": 3.1132035517476853,
+    "vpd": 6137.086664080896,
+    "inscritos": 506000,
+    "outlier": 0.03775889328063241,
+    "duracao": 564,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=nyGhgT95yec",
     "paises": [
-     "MX"
+     "AU"
+    ],
+    "janelas": [
+     "mes",
+     "semana"
+    ],
+    "sementes": [
+     "driving tips nobody tells you"
+    ]
+   },
+   {
+    "id": "zx3aZgAtjpk",
+    "titulo": "Truques pra facilitar a vida #carros #mecanica #mecanicaautomotiva#curiosidades #fyp",
+    "canal": "PEGA A CHAVE - CARROS",
+    "views": 37248,
+    "idade": 6.715229014710648,
+    "vpd": 5546.795190216603,
+    "inscritos": 15500,
+    "outlier": 2.4030967741935485,
+    "duracao": 62,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=zx3aZgAtjpk",
+    "paises": [
+     "ES"
     ],
     "janelas": [
      "semana"
     ],
     "sementes": [
-     "consejos para conducir principiantes"
+     "trucos para el auto"
+    ]
+   },
+   {
+    "id": "TANsaQn40jM",
+    "titulo": "17 Hidden Car Features You Probably Don't Know (Pro Tips)",
+    "canal": "All Car Talk",
+    "views": 25901,
+    "idade": 5.127300773969908,
+    "vpd": 5051.585842494992,
+    "inscritos": 195000,
+    "outlier": 0.13282564102564104,
+    "duracao": 1226,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=TANsaQn40jM",
+    "paises": [
+     "AU",
+     "GB"
+    ],
+    "janelas": [
+     "semana"
+    ],
+    "sementes": [
+     "car features you didn't know"
+    ]
+   },
+   {
+    "id": "riu8DpfAuvc",
+    "titulo": "Como saber o significado das cores do painel do carro",
+    "canal": "Jornada Top",
+    "views": 19029,
+    "idade": 4.238411885081018,
+    "vpd": 4489.653322033438,
+    "inscritos": 1700000,
+    "outlier": 0.011193529411764706,
+    "duracao": 121,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=riu8DpfAuvc",
+    "paises": [
+     "ES"
+    ],
+    "janelas": [
+     "mes",
+     "semana"
+    ],
+    "sementes": [
+     "luces del tablero significado"
     ]
    }
   ],
   "mes": [
    {
-    "id": "8_5uyYyokB8",
-    "titulo": "😅🔥🔥✅ OLHA ISSO! #mecanica #dicas #manutencao #moto #carros #netshowcar",
-    "canal": "NetShowCar",
-    "views": 841233,
-    "idade": 28.108951419710646,
-    "vpd": 29927.583830470034,
-    "inscritos": 23100,
-    "outlier": 36.41701298701299,
-    "duracao": 17,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=8_5uyYyokB8",
+    "id": "lBBdHbQqyAs",
+    "titulo": "These SECRET Car Features Are Only Known by 1% of Drivers (USE THEM NOW)",
+    "canal": "Auto Unlocked",
+    "views": 1714537,
+    "idade": 22.988203551747684,
+    "vpd": 74583.33993521873,
+    "inscritos": 38000,
+    "outlier": 45.119394736842104,
+    "duracao": 1080,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=lBBdHbQqyAs",
     "paises": [
-     "MX"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "mantenimiento del auto tú mismo"
-    ]
-   },
-   {
-    "id": "bpTIXmp9eZE",
-    "titulo": "caixa automática do carro #automobile #foco #mecanicadescomp #mechanic #racing #oficina #manutenção",
-    "canal": "Manutenção Raíz ",
-    "views": 361542,
-    "idade": 12.671439845636574,
-    "vpd": 28532.037748219864,
-    "inscritos": 4860,
-    "outlier": 74.39135802469136,
-    "duracao": 11,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=bpTIXmp9eZE",
-    "paises": [
-     "PT"
+     "AU",
+     "GB"
     ],
     "janelas": [
      "ano",
      "mes"
     ],
     "sementes": [
-     "manutenção do carro"
+     "car features you didn't know"
     ]
    },
    {
-    "id": "dLNJ7Tbu2fg",
-    "titulo": "Está correto dessa forma!? #oficina #carros #mecanica #turbo #racing #race",
-    "canal": "RafugaDUB",
-    "views": 534974,
-    "idade": 24.960710678969907,
-    "vpd": 21432.64295959051,
-    "inscritos": 33100,
-    "outlier": 16.162356495468277,
-    "duracao": 87,
+    "id": "ozy1_rUV0wY",
+    "titulo": "Hidden Car Features You Probably Didn't Know #usa #car #cars #carshorts",
+    "canal": "Roll Fact",
+    "views": 2927503,
+    "idade": 26.97772901471065,
+    "vpd": 108515.54622717375,
+    "inscritos": 96000,
+    "outlier": 30.494822916666667,
+    "duracao": 24,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=dLNJ7Tbu2fg",
+    "url": "https://www.youtube.com/watch?v=ozy1_rUV0wY",
     "paises": [
-     "PT"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "manutenção do carro"
-    ]
-   },
-   {
-    "id": "mGLts8pZt0U",
-    "titulo": "cómo limpiar el sensor maf del carro #sensor #maf #carro #mechanic #automotive #gas",
-    "canal": "Cocina Lily",
-    "views": 88086,
-    "idade": 17.021833364155093,
-    "vpd": 5174.883228823824,
-    "inscritos": 4160,
-    "outlier": 21.17451923076923,
-    "duracao": 70,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=mGLts8pZt0U",
-    "paises": [
-     "PT"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "manutenção do carro"
-    ]
-   },
-   {
-    "id": "CoHvJqqyg0w",
-    "titulo": "Car long drive jane se pehle kya check karna chahiye",
-    "canal": "MechbolterX",
-    "views": 408955,
-    "idade": 24.241706049340277,
-    "vpd": 16869.89352843545,
-    "inscritos": 47300,
-    "outlier": 8.645983086680761,
-    "duracao": 161,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=CoHvJqqyg0w",
-    "paises": [
-     "US"
+     "AU",
+     "GB"
     ],
     "janelas": [
      "ano",
      "mes"
     ],
     "sementes": [
-     "how to check your car before a trip"
+     "car features you didn't know"
     ]
    },
    {
-    "id": "IUwSvUW5ZG4",
-    "titulo": "Perfect U-turn 🚗 #driving #automobile #drivingschool",
-    "canal": "India motor driving school ( Jaipur )",
-    "views": 84835,
-    "idade": 13.253534753043981,
-    "vpd": 6400.933907878099,
-    "inscritos": 4700,
-    "outlier": 18.05,
-    "duracao": 25,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=IUwSvUW5ZG4",
+    "id": "GvJCgy-K1OA",
+    "titulo": "41 HIDDEN Car Features NO ONE Knows About (#1 Could Save Your Life)",
+    "canal": "Otto Fischer",
+    "views": 285107,
+    "idade": 12.761409570266203,
+    "vpd": 22341.34077667195,
+    "inscritos": 6630,
+    "outlier": 43.0025641025641,
+    "duracao": 3385,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=GvJCgy-K1OA",
     "paises": [
-     "MX"
+     "AU",
+     "GB"
     ],
     "janelas": [
      "mes"
     ],
     "sementes": [
-     "consejos para conducir principiantes"
+     "car features you didn't know"
     ]
    },
    {
-    "id": "jR5RO36TOTY",
-    "titulo": "E o B.o está de volta 🫪🧐#mecanica #carro",
-    "canal": "Mecdrive",
-    "views": 296163,
-    "idade": 16.727284753043982,
-    "vpd": 17705.384010163703,
-    "inscritos": 37500,
-    "outlier": 7.89768,
-    "duracao": 152,
+    "id": "HxNoqyNBfZA",
+    "titulo": "🚗 6 Car AC Button Tricks Every Driver Must Know! Stay Safe on the Road",
+    "canal": "China Auto Moteur",
+    "views": 557455,
+    "idade": 13.738400311006943,
+    "vpd": 40576.412637603644,
+    "inscritos": 18300,
+    "outlier": 30.462021857923496,
+    "duracao": 110,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=jR5RO36TOTY",
+    "url": "https://www.youtube.com/watch?v=HxNoqyNBfZA",
     "paises": [
-     "PT"
+     "ES"
     ],
     "janelas": [
      "mes"
     ],
     "sementes": [
-     "manutenção do carro"
+     "trucos para el auto"
     ]
    },
    {
-    "id": "EzqDRPiC5KA",
-    "titulo": "5 piezas que puedes limpiar TÚ MISMO para revivir tu auto y ahorrar miles 🚗🔧 #shorts",
-    "canal": "MALM",
-    "views": 2714369,
-    "idade": 29.768743086377313,
-    "vpd": 91181.84775635159,
-    "inscritos": 1130000,
-    "outlier": 2.402096460176991,
-    "duracao": 125,
+    "id": "uaiqpkUgWMc",
+    "titulo": "antes de comprar un auto usado revisa esto.#autosusados  #consejosdeautos  #Mecánica #compradeauto",
+    "canal": "Tips Mecánicos ",
+    "views": 578734,
+    "idade": 9.071432718414352,
+    "vpd": 63797.41965403236,
+    "inscritos": 24500,
+    "outlier": 23.621795918367347,
+    "duracao": 102,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=EzqDRPiC5KA",
+    "url": "https://www.youtube.com/watch?v=uaiqpkUgWMc",
     "paises": [
-     "MX"
-    ],
-    "janelas": [
-     "ano",
-     "mes"
-    ],
-    "sementes": [
-     "mantenimiento del auto tú mismo"
-    ]
-   },
-   {
-    "id": "qfMjn6nFGiU",
-    "titulo": "NÃO pode LAVAR o MOTOR do CARRO?🤔 ACF responde",
-    "canal": "Dr. NoZs",
-    "views": 135744,
-    "idade": 13.79697225304398,
-    "vpd": 9838.680364820713,
-    "inscritos": 16700,
-    "outlier": 8.128383233532935,
-    "duracao": 71,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=qfMjn6nFGiU",
-    "paises": [
-     "PT"
+     "ES"
     ],
     "janelas": [
      "mes"
     ],
     "sementes": [
-     "manutenção do carro"
+     "trucos para el auto"
     ]
    },
    {
-    "id": "K0r9GG7UEHU",
-    "titulo": "kit de amortecedor reforçado #palio #siena #doblo #idea #danieldicas #carros #dicaautomotiva",
-    "canal": "Daniel dicas automotivas ",
-    "views": 415083,
-    "idade": 19.109032438229164,
-    "vpd": 21721.82193639448,
-    "inscritos": 90600,
-    "outlier": 4.581490066225165,
-    "duracao": 161,
+    "id": "hBCGpsajBBE",
+    "titulo": "7 Trucos y Funciones Secretas de tu Auto para Ahorrar en el Taller",
+    "canal": "Daniel Fabian Ramirez",
+    "views": 1109127,
+    "idade": 19.068342440636574,
+    "vpd": 58165.88428978167,
+    "inscritos": 511000,
+    "outlier": 2.1705029354207435,
+    "duracao": 80,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=K0r9GG7UEHU",
+    "url": "https://www.youtube.com/watch?v=hBCGpsajBBE",
     "paises": [
-     "PT"
+     "ES"
     ],
     "janelas": [
      "mes"
     ],
     "sementes": [
-     "manutenção do carro"
+     "trucos para el auto"
     ]
    },
    {
-    "id": "q0pb1GLPrmM",
-    "titulo": "How to fix a car",
-    "canal": "ivy kittyy",
-    "views": 60053,
-    "idade": 27.858951419710646,
-    "vpd": 2155.6087698803894,
-    "inscritos": 6340,
-    "outlier": 9.472082018927445,
-    "duracao": 13,
+    "id": "zdbxJfERooA",
+    "titulo": "The Roundabout Secret Nobody Tells You! #driving",
+    "canal": "Consejos para conducir",
+    "views": 144499,
+    "idade": 28.19644429248843,
+    "vpd": 5124.724185116303,
+    "inscritos": 35800,
+    "outlier": 4.036284916201117,
+    "duracao": 14,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=q0pb1GLPrmM",
+    "url": "https://www.youtube.com/watch?v=zdbxJfERooA",
     "paises": [
-     "MX"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "mantenimiento del auto tú mismo"
-    ]
-   },
-   {
-    "id": "Vx9LakvEB3I",
-    "titulo": "Why I only use Repco for my oil changes #diy #carrepair #maintenance",
-    "canal": "Roam Lyfe",
-    "views": 381239,
-    "idade": 21.714032438229165,
-    "vpd": 17557.263998961356,
-    "inscritos": 107000,
-    "outlier": 3.562981308411215,
-    "duracao": 88,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=Vx9LakvEB3I",
-    "paises": [
-     "MX"
+     "AU",
+     "GB"
     ],
     "janelas": [
      "ano",
      "mes"
     ],
     "sementes": [
-     "mantenimiento del auto tú mismo"
+     "driving tips nobody tells you"
+    ]
+   },
+   {
+    "id": "j-0kxTJlVFc",
+    "titulo": "Cómo pulir faros amarillos en casa con pasta dental y bicarbonato",
+    "canal": "Daniel Fabian Ramirez",
+    "views": 848178,
+    "idade": 24.6580646628588,
+    "vpd": 34397.5900621904,
+    "inscritos": 511000,
+    "outlier": 1.659839530332681,
+    "duracao": 77,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=j-0kxTJlVFc",
+    "paises": [
+     "ES"
+    ],
+    "janelas": [
+     "mes"
+    ],
+    "sementes": [
+     "trucos para el auto"
+    ]
+   },
+   {
+    "id": "ztEh9BuEQWE",
+    "titulo": "MITO OU VERDADE SOBRE CARROS: Gasolina aditivada, flex e câmbio automático 🚗💨SOU MAIS CARRO",
+    "canal": "SOU MAIS CARRO - Loja de Carros em Santo André",
+    "views": 14707,
+    "idade": 12.122555403599536,
+    "vpd": 1213.1930529790004,
+    "inscritos": 1580,
+    "outlier": 9.308227848101266,
+    "duracao": 40,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=ztEh9BuEQWE",
+    "paises": [
+     "ES"
+    ],
+    "janelas": [
+     "mes"
+    ],
+    "sementes": [
+     "mitos de autos"
+    ]
+   },
+   {
+    "id": "dZf4j6l7TpI",
+    "titulo": "¿Olvidaste las llaves adentro? Truco con cinta para abrir tu auto",
+    "canal": "Daniel Fabian Ramirez",
+    "views": 688116,
+    "idade": 28.26304151471065,
+    "vpd": 24346.84885707867,
+    "inscritos": 511000,
+    "outlier": 1.3466066536203523,
+    "duracao": 67,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=dZf4j6l7TpI",
+    "paises": [
+     "ES"
+    ],
+    "janelas": [
+     "mes"
+    ],
+    "sementes": [
+     "trucos para el auto"
+    ]
+   },
+   {
+    "id": "aWuJahRNfYY",
+    "titulo": "These SECRET Car Features Are Only Known By 1% of Drivers (USE THEM NOW)",
+    "canal": "Ray Donnelly",
+    "views": 182859,
+    "idade": 9.0402058665625,
+    "vpd": 20227.30485334969,
+    "inscritos": 74800,
+    "outlier": 2.4446390374331552,
+    "duracao": 2340,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=aWuJahRNfYY",
+    "paises": [
+     "AU",
+     "GB"
+    ],
+    "janelas": [
+     "mes"
+    ],
+    "sementes": [
+     "car features you didn't know"
+    ]
+   },
+   {
+    "id": "RKF1gnMhccg",
+    "titulo": "DIY Car Hacks That Will Save You Thousands! 🚗💨",
+    "canal": "Tips&Hacks",
+    "views": 707587,
+    "idade": 9.077925773969907,
+    "vpd": 77945.88958073867,
+    "inscritos": 665000,
+    "outlier": 1.0640406015037593,
+    "duracao": 147,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=RKF1gnMhccg",
+    "paises": [
+     "ES"
+    ],
+    "janelas": [
+     "mes"
+    ],
+    "sementes": [
+     "trucos para el auto"
     ]
    }
   ],
   "ano": [
    {
-    "id": "Jl6jTVn07L4",
-    "titulo": "QUANTO CUSTA a MANUTENÇÃO do CARRO ELÉTRICO?",
-    "canal": "Manual do Mundo",
-    "views": 10529947,
-    "idade": 254.900722253044,
-    "vpd": 41309.9927961238,
-    "inscritos": 20600000,
-    "outlier": 0.5111624757281553,
-    "duracao": 69,
+    "id": "sXhAEQa2LcQ",
+    "titulo": "Do you know about these hidden car features? #automobile #car #america",
+    "canal": "GarageBella",
+    "views": 44680262,
+    "idade": 118.15811095915508,
+    "vpd": 378139.6100302,
+    "inscritos": 252000,
+    "outlier": 177.302626984127,
+    "duracao": 43,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=Jl6jTVn07L4",
+    "url": "https://www.youtube.com/watch?v=sXhAEQa2LcQ",
     "paises": [
-     "PT"
+     "AU",
+     "GB"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "manutenção do carro"
+     "car features you didn't know"
     ]
    },
    {
-    "id": "GE6hjwi-n2s",
-    "titulo": "Factful Fridays | Car Parked for Months? Car Battery Myth Busted!",
-    "canal": "Maruti Suzuki Service",
-    "views": 3923630,
-    "idade": 195.21723845674768,
-    "vpd": 20098.788565075,
-    "inscritos": 26100,
-    "outlier": 150.33065134099616,
-    "duracao": 75,
+    "id": "AjYEYAXRHQA",
+    "titulo": "95% of drivers don't know about these hidden car features! #car #automobile #america",
+    "canal": "GarageBella",
+    "views": 21784205,
+    "idade": 48.97870123693287,
+    "vpd": 444768.9393522221,
+    "inscritos": 252000,
+    "outlier": 86.44525793650794,
+    "duracao": 46,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=GE6hjwi-n2s",
+    "url": "https://www.youtube.com/watch?v=AjYEYAXRHQA",
     "paises": [
-     "US"
+     "AU",
+     "GB"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "car myths busted"
+     "car features you didn't know"
     ]
    },
    {
-    "id": "EP1OMPvLuT0",
-    "titulo": "O que NINGUÉM te EXPLICA sobre CARROS HÍBRIDOS!",
-    "canal": "Manual do Mundo",
-    "views": 3510028,
-    "idade": 226.90073382711805,
-    "vpd": 15469.443138400722,
-    "inscritos": 20600000,
-    "outlier": 0.17038970873786408,
-    "duracao": 89,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=EP1OMPvLuT0",
-    "paises": [
-     "PT"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "manutenção do carro"
-    ]
-   },
-   {
-    "id": "qzhAtjIFPfs",
-    "titulo": "Cómo Limpiar 8 Sensores y Piezas del Motor para Ahorrar Dinero 🛠️",
-    "canal": "Daniel Fabian Ramirez",
-    "views": 3188230,
-    "idade": 91.0725856789699,
-    "vpd": 35007.57089777251,
-    "inscritos": 496000,
-    "outlier": 6.427883064516129,
-    "duracao": 96,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=qzhAtjIFPfs",
-    "paises": [
-     "MX"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "mantenimiento del auto tú mismo"
-    ]
-   },
-   {
-    "id": "3UtfkidQEJk",
-    "titulo": "¿El Aire Acondicionado de tu Auto No Enfría? Solución FÁCIL y GRATIS Sin Ir al Taller",
-    "canal": "Daniel Fabian Ramirez",
-    "views": 3117035,
-    "idade": 103.93039817896991,
-    "vpd": 29991.562185996947,
-    "inscritos": 496000,
-    "outlier": 6.284344758064516,
-    "duracao": 80,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=3UtfkidQEJk",
-    "paises": [
-     "MX"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "mantenimiento del auto tú mismo"
-    ]
-   },
-   {
-    "id": "MAUBbRTrD7s",
-    "titulo": "Rampa de madeira levanta carro só de subir e facilita manutenção rápida #dicas #carros",
-    "canal": "Ak TV",
-    "views": 2844054,
-    "idade": 197.1880833641551,
-    "vpd": 14423.052100708197,
-    "inscritos": 269000,
-    "outlier": 10.572691449814126,
-    "duracao": 15,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=MAUBbRTrD7s",
-    "paises": [
-     "PT"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "manutenção do carro"
-    ]
-   },
-   {
-    "id": "L2sONQOgkzA",
-    "titulo": "Como Calcular Distancias en Auto: 5 Trucos para Principiantes",
-    "canal": "Daniel Fabian Ramirez",
-    "views": 2628847,
-    "idade": 78.73547919748843,
-    "vpd": 33388.34064127798,
-    "inscritos": 496000,
-    "outlier": 5.300094758064516,
+    "id": "rTiT705nxQk",
+    "titulo": "Estacionarse en un lugar imposible 🅿🚙 #coche   #estacionamiento   #conocimiento",
+    "canal": "Trasnochando",
+    "views": 17086879,
+    "idade": 356.19540262582177,
+    "vpd": 47970.52088274571,
+    "inscritos": 895000,
+    "outlier": 19.091484916201118,
     "duracao": 61,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=L2sONQOgkzA",
+    "url": "https://www.youtube.com/watch?v=rTiT705nxQk",
     "paises": [
-     "MX"
+     "ES"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "consejos para conducir principiantes"
+     "trucos para el auto"
     ]
    },
    {
-    "id": "RCBX56YyA-Q",
-    "titulo": "Quanto custa fazer o motor do Golf Sportline?",
-    "canal": "Carros com Tiago",
-    "views": 2051251,
-    "idade": 300.039784753044,
-    "vpd": 6836.596692296452,
-    "inscritos": 603000,
-    "outlier": 3.401742951907131,
-    "duracao": 179,
+    "id": "FoshYPa-qig",
+    "titulo": "I Tried These CRAZY Car Repair Hacks… They Actually Worked?! 🚗🛠️🤯",
+    "canal": "Archie5 Reacts",
+    "views": 8017631,
+    "idade": 75.98808781100695,
+    "vpd": 105511.68256715414,
+    "inscritos": 748000,
+    "outlier": 10.718758021390375,
+    "duracao": 52,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=RCBX56YyA-Q",
+    "url": "https://www.youtube.com/watch?v=FoshYPa-qig",
     "paises": [
-     "PT"
+     "AU",
+     "GB"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "manutenção do carro"
+     "car hacks that actually work"
     ]
    },
    {
-    "id": "e2MYvbleT7c",
-    "titulo": "21 Things You Should Never Do In An Automatic Car!",
-    "canal": "Ray Donnelly",
-    "views": 1446665,
-    "idade": 61.056752345636575,
-    "vpd": 23693.775781105494,
-    "inscritos": 71200,
-    "outlier": 20.318328651685395,
-    "duracao": 1310,
-    "short": false,
-    "url": "https://www.youtube.com/watch?v=e2MYvbleT7c",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "things your car is trying to tell you"
-    ]
-   },
-   {
-    "id": "O4NRnKvOCYI",
-    "titulo": "Leaving Things In A Hot Car For A Month",
-    "canal": "Good Mythical Morning",
-    "views": 1131498,
-    "idade": 85.31752780859954,
-    "vpd": 13262.198625098361,
-    "inscritos": 19800000,
-    "outlier": 0.057146363636363634,
-    "duracao": 1388,
-    "short": false,
-    "url": "https://www.youtube.com/watch?v=O4NRnKvOCYI",
-    "paises": [
-     "US"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "things your car is trying to tell you"
-    ]
-   },
-   {
-    "id": "6plPGSuvc40",
-    "titulo": "Cómo calcular distancias al conducir y estacionar (Guía para principiantes)",
-    "canal": "Daniel Fabian Ramirez",
-    "views": 1010479,
-    "idade": 146.98534030859955,
-    "vpd": 6874.692386863024,
-    "inscritos": 496000,
-    "outlier": 2.0372560483870967,
-    "duracao": 114,
+    "id": "skaX-it-sjM",
+    "titulo": "Cómo hacer el nudo de remolque de liberación rápida para tu auto 🚗🪢 #shorts",
+    "canal": "MALM",
+    "views": 6418702,
+    "idade": 103.65482392211804,
+    "vpd": 61923.81364540012,
+    "inscritos": 1160000,
+    "outlier": 5.533363793103448,
+    "duracao": 26,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=6plPGSuvc40",
+    "url": "https://www.youtube.com/watch?v=skaX-it-sjM",
     "paises": [
-     "MX"
+     "ES"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "consejos para conducir principiantes"
+     "trucos para el auto"
     ]
    },
    {
-    "id": "7dShuQbViow",
-    "titulo": "¡7 ERRORES CRÍTICOS con el Embrague que TODO Motociclista NOVATO Comete ¡Evítalos AHORA MISMO!",
-    "canal": "MotoMastery",
-    "views": 878558,
-    "idade": 357.99573382711804,
-    "vpd": 2454.1018704548865,
-    "inscritos": 42800,
-    "outlier": 20.527056074766357,
-    "duracao": 676,
-    "short": false,
-    "url": "https://www.youtube.com/watch?v=7dShuQbViow",
+    "id": "psO5eZfOobM",
+    "titulo": "Clever Car Hacks and Tricks You Should Know 🚗#useful #quick #cartricks",
+    "canal": "Beamish",
+    "views": 6335751,
+    "idade": 67.82147901471065,
+    "vpd": 93418.06006067428,
+    "inscritos": 2660000,
+    "outlier": 2.3818612781954887,
+    "duracao": 141,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=psO5eZfOobM",
     "paises": [
-     "MX"
+     "AU",
+     "GB"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "consejos para conducir principiantes"
+     "car hacks that actually work"
+    ]
+   },
+   {
+    "id": "a3kHOURxlEk",
+    "titulo": "These SECRET Car Tricks are Unknown To 99% of Drivers (Pro Tips)",
+    "canal": "OnTorque",
+    "views": 3181279,
+    "idade": 61.96147901471065,
+    "vpd": 51342.85124544418,
+    "inscritos": 17800,
+    "outlier": 178.7235393258427,
+    "duracao": 1417,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=a3kHOURxlEk",
+    "paises": [
+     "AU",
+     "GB"
+    ],
+    "janelas": [
+     "ano"
+    ],
+    "sementes": [
+     "car hacks that actually work"
+    ]
+   },
+   {
+    "id": "TBvyPn-IadA",
+    "titulo": "I Tried the Internet’s Most Viral Mechanic Hacks (This One is GENIUS)",
+    "canal": "Budget Mechanic",
+    "views": 2364674,
+    "idade": 63.300680403599536,
+    "vpd": 37356.217736097744,
+    "inscritos": 672000,
+    "outlier": 3.518860119047619,
+    "duracao": 957,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=TBvyPn-IadA",
+    "paises": [
+     "AU",
+     "GB"
+    ],
+    "janelas": [
+     "ano"
+    ],
+    "sementes": [
+     "car hacks that actually work"
+    ]
+   },
+   {
+    "id": "15WneicXFZM",
+    "titulo": "15 GENIUS Car Hacks You Won't Believe Actually Work!",
+    "canal": "CarCraft",
+    "views": 2243323,
+    "idade": 172.23835401471064,
+    "vpd": 13024.5264641138,
+    "inscritos": 108000,
+    "outlier": 20.771509259259258,
+    "duracao": 1581,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=15WneicXFZM",
+    "paises": [
+     "AU",
+     "GB"
+    ],
+    "janelas": [
+     "ano"
+    ],
+    "sementes": [
+     "car hacks that actually work"
+    ]
+   },
+   {
+    "id": "KZ6KeXuCZng",
+    "titulo": "Weird Car Features You Never Knew Existed!",
+    "canal": "Valve Float",
+    "views": 1354819,
+    "idade": 355.92925679248845,
+    "vpd": 3806.427749742072,
+    "inscritos": 22400,
+    "outlier": 60.48299107142857,
+    "duracao": 54,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=KZ6KeXuCZng",
+    "paises": [
+     "AU",
+     "GB"
+    ],
+    "janelas": [
+     "ano"
+    ],
+    "sementes": [
+     "car features you didn't know"
+    ]
+   },
+   {
+    "id": "Ger-gxuBF2Q",
+    "titulo": "Secret Car Features You Didn't Know!🤯🤯🤯 #tipsandtricks #cars",
+    "canal": "Abu Garage",
+    "views": 1289140,
+    "idade": 37.25741651471065,
+    "vpd": 34600.896159587406,
+    "inscritos": 514000,
+    "outlier": 2.508054474708171,
+    "duracao": 36,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=Ger-gxuBF2Q",
+    "paises": [
+     "AU",
+     "GB"
+    ],
+    "janelas": [
+     "ano"
+    ],
+    "sementes": [
+     "car features you didn't know"
+    ]
+   },
+   {
+    "id": "oe_bGvNekgk",
+    "titulo": "7 HIDDEN Car Key Features Your Dealer Never Tells You About",
+    "canal": "BEHIND THE CAR",
+    "views": 1223601,
+    "idade": 106.0714095702662,
+    "vpd": 11535.634389674391,
+    "inscritos": 47000,
+    "outlier": 26.034063829787232,
+    "duracao": 1208,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=oe_bGvNekgk",
+    "paises": [
+     "AU",
+     "GB"
+    ],
+    "janelas": [
+     "ano"
+    ],
+    "sementes": [
+     "car features you didn't know"
     ]
    }
   ]
@@ -1227,48 +1243,5 @@
   }
  ],
  "avisos": {},
- "duvidas_fora": [
-  {
-   "id": "us:what does it mean when your car shakes while driving",
-   "pais": "EUA",
-   "texto": "what does it mean when your car shakes while driving",
-   "pontos": 3.6
-  },
-  {
-   "id": "us:how do i know if my car needs freon",
-   "pais": "EUA",
-   "texto": "how do i know if my car needs freon",
-   "pontos": 3.3
-  },
-  {
-   "id": "us:can i drive with check engine light on",
-   "pais": "EUA",
-   "texto": "can i drive with check engine light on",
-   "pontos": 3.1
-  },
-  {
-   "id": "mx:es normal que mi carro consume anticongelante",
-   "pais": "México",
-   "texto": "es normal que mi carro consume anticongelante",
-   "pontos": 3.1
-  },
-  {
-   "id": "mx:por que mi auto huele a gasolina",
-   "pais": "México",
-   "texto": "por qué mi auto huele a gasolina",
-   "pontos": 2.8
-  },
-  {
-   "id": "mx:por que mi auto se jalonea",
-   "pais": "México",
-   "texto": "por qué mi auto se jalonea",
-   "pontos": 2.8
-  },
-  {
-   "id": "mx:cada cuanto se cambia el aceite de un carro",
-   "pais": "México",
-   "texto": "cada cuánto se cambia el aceite de un carro",
-   "pontos": 2.5
-  }
- ]
+ "duvidas_fora": []
 }
