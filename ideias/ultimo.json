@@ -1,177 +1,196 @@
 {
- "gerado_em": "2026-11-19T18:38:07.463720+00:00",
- "gerado_legivel": "19/11/2026 15:39",
+ "gerado_em": "2026-11-26T19:15:42.156674+00:00",
+ "gerado_legivel": "26/11/2026 16:16",
  "paises": [
-  "IN",
-  "AR",
-  "CA"
+  "CO",
+  "CL",
+  "US"
  ],
  "sementes": {
   "en": [
-   "why is my car making this noise",
-   "first car buying tips",
-   "car cleaning tips"
+   "car tips for beginners",
+   "new driver mistakes",
+   "car maintenance you can do yourself"
   ],
   "es": [
-   "funciones del auto que no conocías",
-   "revisar el auto antes de viajar",
-   "ruidos del auto"
+   "consejos para conducir principiantes",
+   "mantenimiento del auto tú mismo",
+   "errores al manejar"
   ],
   "pt": [
-   "truques para o carro",
-   "funções escondidas do carro",
-   "revisão antes de viajar"
+   "dicas condução principiantes",
+   "manutenção do carro",
+   "erros ao conduzir"
   ]
  },
  "duvidas": [
   {
-   "texto": "o que fazer quando o carro não quer ligar no frio",
-   "pontos": 4.8,
+   "texto": "é normal o carro esquentar no calor",
+   "pontos": 4.1,
+   "fontes": [
+    "Google"
+   ],
+   "oferta": {
+    "videos": 1,
+    "melhor_views": 1554193
+   },
+   "brecha": true
+  },
+  {
+   "texto": "é normal o carro baixa água do radiador",
+   "pontos": 8.1,
    "fontes": [
     "YouTube"
    ],
    "oferta": {
     "videos": 10,
-    "melhor_views": 6712349
+    "melhor_views": 1045490
    },
    "brecha": false
   },
   {
-   "texto": "como saber se o carro está ligado",
+   "texto": "o que fazer quando o carro roda na pista",
    "pontos": 4.0,
    "fontes": [
+    "Google",
     "YouTube"
    ],
    "oferta": {
     "videos": 10,
-    "melhor_views": 1166484
+    "melhor_views": 59147438
    },
    "brecha": false
   },
   {
-   "texto": "porque o carro não quer dar partida",
+   "texto": "o que fazer quando o carro está baixando óleo",
+   "pontos": 3.7,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 1511288
+   },
+   "brecha": false
+  },
+  {
+   "texto": "é normal o carro fumaçar no frio",
+   "pontos": 3.7,
+   "fontes": [
+    "Google"
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 269805
+   },
+   "brecha": false
+  },
+  {
+   "texto": "é normal o carro abaixou um pouco de água",
+   "pontos": 3.6,
+   "fontes": [
+    "Google"
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 582127
+   },
+   "brecha": false
+  },
+  {
+   "texto": "é normal o carro bater tucho quando liga",
+   "pontos": 3.6,
+   "fontes": [
+    "Google"
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 467298
+   },
+   "brecha": false
+  },
+  {
+   "texto": "o que fazer quando o carro da busca e apreensão",
+   "pontos": 3.5,
+   "fontes": [
+    "Google"
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 9239634
+   },
+   "brecha": false
+  },
+  {
+   "texto": "qual a diferença entre socialismo e comunismo",
+   "pontos": 3.4,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 16487598
+   },
+   "brecha": false
+  },
+  {
+   "texto": "é normal o carro falhar no frio",
+   "pontos": 3.4,
+   "fontes": [
+    "Google"
+   ],
+   "oferta": {
+    "videos": 10,
+    "melhor_views": 118525
+   },
+   "brecha": false
+  },
+  {
+   "texto": "é normal o carro feder gasolina",
+   "pontos": 3.4,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "é normal o carro soltar fumaça branca",
    "pontos": 3.3,
    "fontes": [
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 925687
-   },
-   "brecha": false
+    "Google"
+   ]
   },
   {
-   "texto": "porque o carro queima a junta do cabeçote",
+   "texto": "é normal o carro pingar água do ar condicionado",
    "pontos": 3.3,
    "fontes": [
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 2182892
-   },
-   "brecha": false
+    "Google"
+   ]
   },
   {
-   "texto": "o que fazer quando o carro tá fumaçando",
+   "texto": "por que o carro perde o freio",
    "pontos": 3.3,
    "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 2032270
-   },
-   "brecha": false
+    "Google"
+   ]
   },
   {
-   "texto": "como saber se o carro esta com a junta queimada",
-   "pontos": 3.2,
+   "texto": "o que fazer quando o carro liga mas não pega",
+   "pontos": 3.3,
    "fontes": [
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 1017182
-   },
-   "brecha": false
+    "Google"
+   ]
   },
   {
-   "texto": "como saber se o meu carro tem rastreador",
-   "pontos": 3.2,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 1600736
-   },
-   "brecha": false
-  },
-  {
-   "texto": "como saber se o meu carro tem multa",
-   "pontos": 3.2,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 501822
-   },
-   "brecha": false
-  },
-  {
-   "texto": "como saber se o carro passou por enchente",
-   "pontos": 3.2,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 1688035
-   },
-   "brecha": false
-  },
-  {
-   "texto": "como saber se o carro precisa de balanceamento",
-   "pontos": 3.2,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ],
-   "oferta": {
-    "videos": 10,
-    "melhor_views": 596014
-   },
-   "brecha": false
-  },
-  {
-   "texto": "por que o carro acende a luz da injeção",
+   "texto": "o que fazer quando o carro aquaplanar",
    "pontos": 3.2,
    "fontes": [
     "Google"
    ]
   },
   {
-   "texto": "porque o carro fica oscilando",
-   "pontos": 3.2,
-   "fontes": [
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o volante do carro trava",
-   "pontos": 3.2,
-   "fontes": [
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro está fumando",
+   "texto": "como saber se meu carro está isento de ipva",
    "pontos": 3.2,
    "fontes": [
     "Google",
@@ -179,14 +198,7 @@
    ]
   },
   {
-   "texto": "o que fazer quando o carro está misturando água com óleo",
-   "pontos": 3.2,
-   "fontes": [
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro fica acelerado",
+   "texto": "como saber se o carro ja teve gnv",
    "pontos": 3.2,
    "fontes": [
     "Google",
@@ -194,114 +206,39 @@
    ]
   },
   {
-   "texto": "é normal o carro automático morrer",
+   "texto": "como saber se o carro não está carregando a bateria",
+   "pontos": 3.2,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o carro morre na subida",
    "pontos": 3.2,
    "fontes": [
     "Google"
    ]
   },
   {
-   "texto": "é normal o carro não ligar a ventoinha",
+   "texto": "é normal o carro sair um pouco de fumaça",
    "pontos": 3.2,
    "fontes": [
     "Google"
    ]
   },
   {
-   "texto": "é normal o carro tremer quando freia",
-   "pontos": 3.2,
-   "fontes": [
-    "Google"
-   ]
-  },
-  {
-   "texto": "por que o carro queima óleo",
-   "pontos": 3.2,
-   "fontes": [
-    "Google"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro está com busca e apreensão",
+   "texto": "por que o carro afoga",
    "pontos": 3.1,
    "fontes": [
     "Google"
    ]
   },
   {
-   "texto": "quanto custa trocar a tela do celular",
-   "pontos": 3.1,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "quanto custa trocar a bateria do iphone 13",
-   "pontos": 3.1,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "primeira vez dirigindo na rodovia",
-   "pontos": 3.1,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro acabou a embreagem",
-   "pontos": 3.1,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "como saber se o carro tem gps",
-   "pontos": 3.1,
-   "fontes": [
-    "Google",
-    "YouTube"
-   ]
-  },
-  {
-   "texto": "é normal o carro baixar o óleo do motor",
+   "texto": "o que fazer quando o carro tranca com a chave dentro",
    "pontos": 3.1,
    "fontes": [
     "Google"
-   ]
-  },
-  {
-   "texto": "é normal o carro demorar para ligar no frio",
-   "pontos": 3.1,
-   "fontes": [
-    "Google"
-   ]
-  },
-  {
-   "texto": "é normal o carro fumar no frio",
-   "pontos": 3.1,
-   "fontes": [
-    "Google"
-   ]
-  },
-  {
-   "texto": "por que o carro vaza óleo",
-   "pontos": 3.1,
-   "fontes": [
-    "Google"
-   ]
-  },
-  {
-   "texto": "como funciona o saque aniversário do fgts",
-   "pontos": 3.1,
-   "fontes": [
-    "Google",
-    "YouTube"
    ]
   },
   {
@@ -313,7 +250,14 @@
    ]
   },
   {
-   "texto": "como saber se o carro tem gravame",
+   "texto": "porque o carro não quer ligar",
+   "pontos": 3.1,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que significa a luz do abs acesa",
    "pontos": 3.1,
    "fontes": [
     "Google",
@@ -321,15 +265,14 @@
    ]
   },
   {
-   "texto": "como saber se meu carro está isento de ipva",
+   "texto": "como saber se o carro está com busca e apreensão gratis",
    "pontos": 3.1,
    "fontes": [
-    "Google",
-    "YouTube"
+    "Google"
    ]
   },
   {
-   "texto": "como saber se o carro ja teve gnv",
+   "texto": "como saber se o carro está gerando",
    "pontos": 3.1,
    "fontes": [
     "Google",
@@ -345,17 +288,10 @@
    ]
   },
   {
-   "texto": "por que o carro perde o freio",
+   "texto": "o que fazer quando o alarme do carro fica disparando sozinho",
    "pontos": 3.1,
    "fontes": [
-    "Google"
-   ]
-  },
-  {
-   "texto": "o que fazer quando o carro morre na subida",
-   "pontos": 3.1,
-   "fontes": [
-    "Google"
+    "YouTube"
    ]
   },
   {
@@ -367,833 +303,900 @@
    ]
   },
   {
+   "texto": "porque o carro esquenta",
+   "pontos": 3.0,
+   "fontes": [
+    "YouTube"
+   ]
+  },
+  {
    "texto": "por que o carro fica falhando",
    "pontos": 3.0,
    "fontes": [
     "Google"
+   ]
+  },
+  {
+   "texto": "carro fazendo barulho de grilo",
+   "pontos": 3.0,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "como saber se o carro tem gravame",
+   "pontos": 3.0,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o carro fica sem embreagem",
+   "pontos": 3.0,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "o que fazer quando o carro está sem força",
+   "pontos": 3.0,
+   "fontes": [
+    "Google",
+    "YouTube"
+   ]
+  },
+  {
+   "texto": "é normal o carro chegar a 90 graus",
+   "pontos": 3.0,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "é normal o carro pingar um pouco de oleo",
+   "pontos": 3.0,
+   "fontes": [
+    "Google"
+   ]
+  },
+  {
+   "texto": "quanto custa trocar a tela do iphone 11",
+   "pontos": 2.9,
+   "fontes": [
+    "Google",
+    "YouTube"
    ]
   }
  ],
  "la_fora": {
   "semana": [
    {
-    "id": "YMyHdLyZHqk",
-    "titulo": "₹10 Lakh Ke Under 5 Best Cars in India 🚗🔥 | Best First Car? #shorts",
-    "canal": "Suriously Cars ",
-    "views": 72069,
-    "idade": 2.1659312930555554,
-    "vpd": 33273.90865586033,
-    "inscritos": 5350,
-    "outlier": 13.470841121495328,
-    "duracao": 56,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=YMyHdLyZHqk",
-    "paises": [
-     "CA"
-    ],
-    "janelas": [
-     "mes",
-     "semana"
-    ],
-    "sementes": [
-     "first car buying tips"
-    ]
-   },
-   {
-    "id": "DQJG9JzTvgw",
-    "titulo": "TESTE DE PRODUTO q LIMPA CARRO... #shorts #humor #dicas",
-    "canal": "Baguinha",
-    "views": 21067,
-    "idade": 1.0,
-    "vpd": 21067.0,
-    "inscritos": 91600,
-    "outlier": 0.22998908296943232,
-    "duracao": 46,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=DQJG9JzTvgw",
-    "paises": [
-     "CA",
-     "IN"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "car cleaning tips"
-    ]
-   },
-   {
-    "id": "2kHlgGk1SYk",
-    "titulo": "Why new EVs are legally required to make noise #cars",
-    "canal": "VroomShift",
-    "views": 53122,
-    "idade": 2.9369845337962963,
-    "vpd": 18087.259019827186,
-    "inscritos": 21600,
-    "outlier": 2.459351851851852,
-    "duracao": 31,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=2kHlgGk1SYk",
-    "paises": [
-     "AR"
-    ],
-    "janelas": [
-     "mes",
-     "semana"
-    ],
-    "sementes": [
-     "ruidos del auto"
-    ]
-   },
-   {
-    "id": "6CzjHiZQxl0",
-    "titulo": "Por esto tu carro hace RUIDO al girar 🚗🔧 Reemplazo de junta homocinética #shorts",
-    "canal": "Mecánica Tips & Trucos",
-    "views": 20261,
-    "idade": 1.676324811574074,
-    "vpd": 12086.559752685913,
-    "inscritos": 469000,
-    "outlier": 0.04320042643923241,
-    "duracao": 83,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=6CzjHiZQxl0",
-    "paises": [
-     "AR"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "ruidos del auto"
-    ]
-   },
-   {
-    "id": "L8B1RnhsR30",
-    "titulo": "Buying a 160 HP Car for City Traffic? Watch This First! 🚨 #shorts",
-    "canal": "AutoTron",
-    "views": 58698,
-    "idade": 5.332771570833334,
-    "vpd": 11007.03437609038,
-    "inscritos": 15000,
-    "outlier": 3.9132,
-    "duracao": 41,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=L8B1RnhsR30",
-    "paises": [
-     "CA",
-     "IN"
-    ],
-    "janelas": [
-     "mes",
-     "semana"
-    ],
-    "sementes": [
-     "first car buying tips"
-    ]
-   },
-   {
-    "id": "EGKZvUOGdII",
-    "titulo": "Get Better Car Discounts in November & December (NEW BUYERS MUST WATCH)",
-    "canal": "Sunderdeep Singh",
-    "views": 10485,
-    "idade": 1.0,
-    "vpd": 10485.0,
-    "inscritos": 194000,
-    "outlier": 0.05404639175257732,
-    "duracao": 1028,
+    "id": "2YDVVFc4VgY",
+    "titulo": "Tips That'll Make Your Life Easier In Grand Theft Auto 6",
+    "canal": "Boomstick Gaming",
+    "views": 1330929,
+    "idade": 5.7486476466898155,
+    "vpd": 231520.3647533303,
+    "inscritos": 421000,
+    "outlier": 3.1613515439429927,
+    "duracao": 926,
     "short": false,
-    "url": "https://www.youtube.com/watch?v=EGKZvUOGdII",
+    "url": "https://www.youtube.com/watch?v=2YDVVFc4VgY",
     "paises": [
-     "CA",
-     "IN"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "first car buying tips"
-    ]
-   },
-   {
-    "id": "jOmEfx-8Xoo",
-    "titulo": "Interesting Car Maintenance Discoveries and Repair Methods 🚗 #simple #diy #car #fixing #tricks",
-    "canal": "Beamish Tips",
-    "views": 64217,
-    "idade": 6.942702126388889,
-    "vpd": 9249.568659429324,
-    "inscritos": 6370,
-    "outlier": 10.08116169544741,
-    "duracao": 178,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=jOmEfx-8Xoo",
-    "paises": [
-     "CA",
-     "IN"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "car cleaning tips"
-    ]
-   },
-   {
-    "id": "pSRypDwWwDA",
-    "titulo": "Absolutely FILTHY Car Detailing 🤯 #detailing #satisfying #shorts #vonixx #cleaning",
-    "canal": "Apex Detailing",
-    "views": 49855,
-    "idade": 6.0962322189814815,
-    "vpd": 8178.002118221383,
-    "inscritos": 3640,
-    "outlier": 13.696428571428571,
-    "duracao": 11,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=pSRypDwWwDA",
-    "paises": [
-     "IN"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "car cleaning tips"
-    ]
-   },
-   {
-    "id": "5J7eMEGn8Qk",
-    "titulo": "4 Cars, 1 Day… How Much Did We Make in Tips?",
-    "canal": "Vintage Revamp Garage",
-    "views": 15142,
-    "idade": 2.3426558300925926,
-    "vpd": 6463.604173303391,
-    "inscritos": 10000,
-    "outlier": 1.5142,
-    "duracao": 909,
-    "short": false,
-    "url": "https://www.youtube.com/watch?v=5J7eMEGn8Qk",
-    "paises": [
-     "CA",
-     "IN"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "car cleaning tips"
-    ]
-   },
-   {
-    "id": "b0NPKIxI-Do",
-    "titulo": "I Cancelled 2 Bookings After 15+ Test Drives | Our First Family Car",
-    "canal": "Prasanth Chaduvula",
-    "views": 31310,
-    "idade": 5.265815552314815,
-    "vpd": 5945.897589640477,
-    "inscritos": 320,
-    "outlier": 31.31,
-    "duracao": 1916,
-    "short": false,
-    "url": "https://www.youtube.com/watch?v=b0NPKIxI-Do",
-    "paises": [
-     "IN"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "first car buying tips"
-    ]
-   },
-   {
-    "id": "Koxkddtn1jY",
-    "titulo": "¡3 Funciones Ocultas de Tu Coche Que Probablemente No Conocías! #reels #shorts",
-    "canal": "hechos del cine 7.0",
-    "views": 34217,
-    "idade": 5.942852589351852,
-    "vpd": 5757.6726808449785,
-    "inscritos": 248000,
-    "outlier": 0.1379717741935484,
-    "duracao": 27,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=Koxkddtn1jY",
-    "paises": [
-     "AR"
+     "US"
     ],
     "janelas": [
      "mes",
      "semana"
     ],
     "sementes": [
-     "funciones del auto que no conocías"
+     "car tips for beginners"
     ]
    },
    {
-    "id": "6TS_gu1uSoU",
-    "titulo": "This DIY Car Cleaning Hack Removes Hidden Dirt! 🤯🚗 #shorts",
-    "canal": "Industrial IQ",
-    "views": 11913,
-    "idade": 2.088836385648148,
-    "vpd": 5703.175261524132,
-    "inscritos": 3360,
-    "outlier": 3.5455357142857142,
-    "duracao": 11,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=6TS_gu1uSoU",
+    "id": "1ReyVNDmwS4",
+    "titulo": "Do This Before It's TOO LATE In Chapter 1 Of Grand Theft Auto 6! | GTA6 Beginner's Guide & Tips",
+    "canal": "NorZZa",
+    "views": 753854,
+    "idade": 6.177247183726852,
+    "vpd": 122037.20809261601,
+    "inscritos": 144000,
+    "outlier": 5.2350972222222225,
+    "duracao": 802,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=1ReyVNDmwS4",
     "paises": [
-     "CA",
-     "IN"
+     "US"
+    ],
+    "janelas": [
+     "mes",
+     "semana"
+    ],
+    "sementes": [
+     "car tips for beginners"
+    ]
+   },
+   {
+    "id": "MQz5xU4Ub8o",
+    "titulo": "Simple DIY fixes anyone can do at home #easy #car #tutorial",
+    "canal": "Pasted Realities",
+    "views": 140352,
+    "idade": 1.2190874615046297,
+    "vpd": 115128.73721691295,
+    "inscritos": 80100,
+    "outlier": 1.7522097378277153,
+    "duracao": 85,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=MQz5xU4Ub8o",
+    "paises": [
+     "CL",
+     "CO",
+     "US"
+    ],
+    "janelas": [
+     "ano",
+     "mes",
+     "semana"
+    ],
+    "sementes": [
+     "car maintenance you can do yourself",
+     "mantenimiento del auto tú mismo"
+    ]
+   },
+   {
+    "id": "KRCQyAeQ9W8",
+    "titulo": "10 MAJOR MISTAKES To Avoid In Grand Theft Auto 6! | Grand Theft Auto 6 Beginner's Guide & Tips",
+    "canal": "NorZZa",
+    "views": 322881,
+    "idade": 3.1771545911342596,
+    "vpd": 101625.83869887487,
+    "inscritos": 144000,
+    "outlier": 2.2422291666666667,
+    "duracao": 1088,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=KRCQyAeQ9W8",
+    "paises": [
+     "US"
     ],
     "janelas": [
      "semana"
     ],
     "sementes": [
-     "car cleaning tips"
+     "car tips for beginners"
+    ]
+   },
+   {
+    "id": "PCsm2Lk1jLg",
+    "titulo": "New drivers common mistake #automobile #learndriving",
+    "canal": "Carzein",
+    "views": 376175,
+    "idade": 5.511112924467593,
+    "vpd": 68257.5380246524,
+    "inscritos": 150000,
+    "outlier": 2.507833333333333,
+    "duracao": 20,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=PCsm2Lk1jLg",
+    "paises": [
+     "CL",
+     "CO",
+     "US"
+    ],
+    "janelas": [
+     "ano",
+     "mes",
+     "semana"
+    ],
+    "sementes": [
+     "consejos para conducir principiantes",
+     "new driver mistakes"
+    ]
+   },
+   {
+    "id": "U2NSTIzffJA",
+    "titulo": "How to avoid scratching while exiting parking lot",
+    "canal": "Carzein",
+    "views": 93712,
+    "idade": 1.589133757800926,
+    "vpd": 58970.49228233656,
+    "inscritos": 150000,
+    "outlier": 0.6247466666666667,
+    "duracao": 19,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=U2NSTIzffJA",
+    "paises": [
+     "CL",
+     "CO"
+    ],
+    "janelas": [
+     "mes",
+     "semana"
+    ],
+    "sementes": [
+     "consejos para conducir principiantes"
+    ]
+   },
+   {
+    "id": "QeBUDWkvkLw",
+    "titulo": "🛑 DEJA de ECHAR ANTICONGELANTE así (Estás DESTRUYENDO tu MOTOR) SECRETOS del AUTO coche SUV usado",
+    "canal": "GARAJE SUV",
+    "views": 264769,
+    "idade": 6.843844405949073,
+    "vpd": 38687.174093240224,
+    "inscritos": 74500,
+    "outlier": 3.553946308724832,
+    "duracao": 1568,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=QeBUDWkvkLw",
+    "paises": [
+     "CL",
+     "CO"
+    ],
+    "janelas": [
+     "mes",
+     "semana"
+    ],
+    "sementes": [
+     "mantenimiento del auto tú mismo"
+    ]
+   },
+   {
+    "id": "5yJsa6nRUcY",
+    "titulo": "NEW DRIVER MISTAKES WEEK 1 #fyp #trending #driving #viral #drivingwithprez",
+    "canal": "drivingwithprez",
+    "views": 46475,
+    "idade": 1.9435897763194445,
+    "vpd": 23911.938911311427,
+    "inscritos": 20500,
+    "outlier": 2.2670731707317073,
+    "duracao": 63,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=5yJsa6nRUcY",
+    "paises": [
+     "US"
+    ],
+    "janelas": [
+     "semana"
+    ],
+    "sementes": [
+     "new driver mistakes"
+    ]
+   },
+   {
+    "id": "PZdfSSOaIQQ",
+    "titulo": "Driving lesson for beginners",
+    "canal": "Carzein",
+    "views": 40655,
+    "idade": 3.3058467207638893,
+    "vpd": 12297.908352691487,
+    "inscritos": 150000,
+    "outlier": 0.27103333333333335,
+    "duracao": 22,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=PZdfSSOaIQQ",
+    "paises": [
+     "CL",
+     "CO"
+    ],
+    "janelas": [
+     "mes",
+     "semana"
+    ],
+    "sementes": [
+     "consejos para conducir principiantes"
+    ]
+   },
+   {
+    "id": "DgBvSCT7P20",
+    "titulo": "¡Ahorra Gasolina y Recupera Potencia! Limpia la Válvula PCV Tú Mismo en Minutos #mecanicaautomotriz",
+    "canal": "Mecánica Revelada",
+    "views": 71759,
+    "idade": 6.290464776319444,
+    "vpd": 11407.583151906027,
+    "inscritos": 35200,
+    "outlier": 2.0386079545454545,
+    "duracao": 65,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=DgBvSCT7P20",
+    "paises": [
+     "CL",
+     "CO"
+    ],
+    "janelas": [
+     "mes",
+     "semana"
+    ],
+    "sementes": [
+     "mantenimiento del auto tú mismo"
+    ]
+   },
+   {
+    "id": "ujj3HA1SvLg",
+    "titulo": "How Can You Clean These 8 Car Parts Yourself?#cartok #car #cars #carsoftiktokcontest  #cartok",
+    "canal": "Carmoonic",
+    "views": 31214,
+    "idade": 4.739018017060186,
+    "vpd": 6586.596608755535,
+    "inscritos": 21300,
+    "outlier": 1.4654460093896713,
+    "duracao": 87,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=ujj3HA1SvLg",
+    "paises": [
+     "US"
+    ],
+    "janelas": [
+     "semana"
+    ],
+    "sementes": [
+     "car maintenance you can do yourself"
+    ]
+   },
+   {
+    "id": "yyz7mLVGpqI",
+    "titulo": "8 Towing Mistakes That Get You Pulled Over (Even Experienced Drivers)",
+    "canal": "Car Truth Daily",
+    "views": 22521,
+    "idade": 3.5106152392824077,
+    "vpd": 6415.11486305843,
+    "inscritos": 2680,
+    "outlier": 8.403358208955224,
+    "duracao": 1310,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=yyz7mLVGpqI",
+    "paises": [
+     "US"
+    ],
+    "janelas": [
+     "semana"
+    ],
+    "sementes": [
+     "new driver mistakes"
     ]
    }
   ],
   "mes": [
    {
-    "id": "awBGlwCdPM0",
-    "titulo": "Best Foam Spray for Bike & Car Washing? 😱🫧 | Useful Cleaning Gadget",
-    "canal": "Crazy 1T",
-    "views": 3529982,
-    "idade": 26.186116478240738,
-    "vpd": 134803.5705459886,
-    "inscritos": 95600,
-    "outlier": 36.92449790794979,
-    "duracao": 43,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=awBGlwCdPM0",
-    "paises": [
-     "CA",
-     "IN"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "car cleaning tips"
-    ]
-   },
-   {
-    "id": "kQI8Bj6UbNU",
-    "titulo": "$14K Or $5K For Her FIRST Car 🚗🤔  #finance #daveramsey #car",
-    "canal": "Income Edge",
-    "views": 1205122,
-    "idade": 18.14076925601852,
-    "vpd": 66431.69222827636,
-    "inscritos": 7770,
-    "outlier": 155.0993564993565,
-    "duracao": 47,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=kQI8Bj6UbNU",
-    "paises": [
-     "CA"
-    ],
-    "janelas": [
-     "ano",
-     "mes"
-    ],
-    "sementes": [
-     "first car buying tips"
-    ]
-   },
-   {
-    "id": "-BAgJ9ZQ6EE",
-    "titulo": "How to Wash and Rejuvenate your old Car Duster?",
-    "canal": "Car101",
-    "views": 182616,
-    "idade": 9.564901200462963,
-    "vpd": 19092.303848487318,
-    "inscritos": 1490,
-    "outlier": 122.56107382550336,
-    "duracao": 121,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=-BAgJ9ZQ6EE",
-    "paises": [
-     "CA",
-     "IN"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "car cleaning tips"
-    ]
-   },
-   {
-    "id": "iw1d-KLKCo0",
-    "titulo": "17 Auto-Reinigungs-Tricks, die du NICHT kennst",
-    "canal": "Ganz Entspannt Auto",
-    "views": 331843,
-    "idade": 19.099241478240742,
-    "vpd": 17374.66906097082,
-    "inscritos": 10600,
-    "outlier": 31.305943396226414,
-    "duracao": 964,
-    "short": false,
-    "url": "https://www.youtube.com/watch?v=iw1d-KLKCo0",
-    "paises": [
-     "CA",
-     "IN"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "car cleaning tips"
-    ]
-   },
-   {
-    "id": "OBgcjkE5rZc",
-    "titulo": "Car & Truck Noises Explained 🔧🚗 | Identify Engine & Vehicle Problems by Sound!",
-    "canal": "learn to tech",
-    "views": 111173,
-    "idade": 11.891394256018518,
-    "vpd": 9349.029861972047,
-    "inscritos": 418,
-    "outlier": 111.173,
-    "duracao": 36,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=OBgcjkE5rZc",
-    "paises": [
-     "AR"
-    ],
-    "janelas": [
-     "mes"
-    ],
-    "sementes": [
-     "ruidos del auto"
-    ]
-   },
-   {
-    "id": "iE9dnXKf6IU",
-    "titulo": "Este ruido puede costarte un motor entero 😱 #mecanica #autos",
-    "canal": "Miami Auto Parts Depot LLC",
-    "views": 655395,
-    "idade": 15.026116478240741,
-    "vpd": 43617.05840288639,
-    "inscritos": 52300,
-    "outlier": 12.531453154875717,
-    "duracao": 21,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=iE9dnXKf6IU",
-    "paises": [
-     "AR"
-    ],
-    "janelas": [
-     "ano",
-     "mes"
-    ],
-    "sementes": [
-     "ruidos del auto"
-    ]
-   },
-   {
-    "id": "Te3autOPANw",
-    "titulo": "Ranking the BEST Car Sound Systems 🥵",
-    "canal": "MTH Auto Group",
-    "views": 360283,
-    "idade": 8.135040089351852,
-    "vpd": 44287.796500423276,
-    "inscritos": 26800,
-    "outlier": 13.44339552238806,
+    "id": "4WZxR5Amu-g",
+    "titulo": "🚗 Zero Scratch Driving! Car Ke 5 Reference Points Kaise Use Karein? | Beginners Tips Shorts #72",
+    "canal": "AzDriving School",
+    "views": 2278742,
+    "idade": 17.219099035578704,
+    "vpd": 132338.05063154487,
+    "inscritos": 8890,
+    "outlier": 256.32643419572554,
     "duracao": 72,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=Te3autOPANw",
+    "url": "https://www.youtube.com/watch?v=4WZxR5Amu-g",
     "paises": [
-     "AR"
+     "US"
     ],
     "janelas": [
      "mes"
     ],
     "sementes": [
-     "ruidos del auto"
+     "car tips for beginners"
     ]
    },
    {
-    "id": "C98TwkJm4Mw",
-    "titulo": "Dirty Car Hack (10 mins!)",
-    "canal": "MotorOctane Garage",
-    "views": 1193411,
-    "idade": 29.35958870046296,
-    "vpd": 40648.08305646262,
-    "inscritos": 227000,
-    "outlier": 5.25731718061674,
-    "duracao": 64,
+    "id": "VznPFriIjlU",
+    "titulo": "Learn Driving in 5 minutes #drivingschool #driving #shorts",
+    "canal": "India motor driving school ( Jaipur )",
+    "views": 1621940,
+    "idade": 26.31772172076389,
+    "vpd": 61629.194852392495,
+    "inscritos": 6370,
+    "outlier": 254.62166405023547,
+    "duracao": 60,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=C98TwkJm4Mw",
+    "url": "https://www.youtube.com/watch?v=VznPFriIjlU",
     "paises": [
-     "CA",
-     "IN"
+     "US"
     ],
     "janelas": [
      "mes"
     ],
     "sementes": [
-     "car cleaning tips"
+     "car tips for beginners"
     ]
    },
    {
-    "id": "dlcVEaH1Q7I",
-    "titulo": "Este coche rompió la barrera del sonido.",
-    "canal": "Juan Cars",
-    "views": 29414,
-    "idade": 12.079947496759258,
-    "vpd": 2434.9443578203486,
-    "inscritos": 443,
-    "outlier": 29.414,
-    "duracao": 56,
+    "id": "VfJlBoc8124",
+    "titulo": ": 5 Trucos Mecánicos para Ahorrar Dinero en el Taller 🚗💨 #mecanicaautomotriz",
+    "canal": "Mecánica Fácil",
+    "views": 1520319,
+    "idade": 10.203682368912038,
+    "vpd": 148997.09193536013,
+    "inscritos": 20400,
+    "outlier": 74.5254411764706,
+    "duracao": 94,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=dlcVEaH1Q7I",
+    "url": "https://www.youtube.com/watch?v=VfJlBoc8124",
     "paises": [
-     "AR"
+     "CL",
+     "CO"
+    ],
+    "janelas": [
+     "ano",
+     "mes"
+    ],
+    "sementes": [
+     "mantenimiento del auto tú mismo"
+    ]
+   },
+   {
+    "id": "vjSjxSdwe20",
+    "titulo": "Manual Car Hill Start Using the Handbrake with a Slight Rollback",
+    "canal": "Zamen Drive",
+    "views": 1260300,
+    "idade": 29.20306894298611,
+    "vpd": 43156.423130066076,
+    "inscritos": 45800,
+    "outlier": 27.517467248908297,
+    "duracao": 20,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=vjSjxSdwe20",
+    "paises": [
+     "US"
     ],
     "janelas": [
      "mes"
     ],
     "sementes": [
-     "ruidos del auto"
+     "car tips for beginners"
     ]
    },
    {
-    "id": "CmAXijZPAWo",
-    "titulo": "The Buyer Every Car Salesman Hopes Walks In (And the Ones They Dread)",
-    "canal": "Dealership Math",
-    "views": 19961,
-    "idade": 6.0262437930555555,
-    "vpd": 3312.3452494574476,
-    "inscritos": 112,
-    "outlier": 19.961,
-    "duracao": 670,
+    "id": "3NCJjF0mpFQ",
+    "titulo": "carzein driving lessons #learndriving",
+    "canal": "Carzein",
+    "views": 1863007,
+    "idade": 14.595730980023149,
+    "vpd": 127640.54109724659,
+    "inscritos": 150000,
+    "outlier": 12.420046666666666,
+    "duracao": 15,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=3NCJjF0mpFQ",
+    "paises": [
+     "US"
+    ],
+    "janelas": [
+     "mes"
+    ],
+    "sementes": [
+     "car tips for beginners"
+    ]
+   },
+   {
+    "id": "PAk5SZqBez0",
+    "titulo": "Perfect U-turn #drivingschool #drivingreview #driving",
+    "canal": "India motor driving school ( Jaipur )",
+    "views": 164552,
+    "idade": 15.321344405949073,
+    "vpd": 10740.049674498972,
+    "inscritos": 6370,
+    "outlier": 25.83233908948195,
+    "duracao": 30,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=PAk5SZqBez0",
+    "paises": [
+     "US"
+    ],
+    "janelas": [
+     "mes"
+    ],
+    "sementes": [
+     "new driver mistakes"
+    ]
+   },
+   {
+    "id": "QybuMncL4mI",
+    "titulo": "DIY Or Call A Pro: Car Maintenance Edition 🤔",
+    "canal": "Westshore Honda",
+    "views": 44120,
+    "idade": 22.177189313356482,
+    "vpd": 1989.4315450257798,
+    "inscritos": 356,
+    "outlier": 44.12,
+    "duracao": 60,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=QybuMncL4mI",
+    "paises": [
+     "US"
+    ],
+    "janelas": [
+     "mes"
+    ],
+    "sementes": [
+     "car maintenance you can do yourself"
+    ]
+   },
+   {
+    "id": "CQsI-HrwPOw",
+    "titulo": "How Can You Fix These 8 Car Problems Yourself? #carfix #carrepair #cartips #carvideos #cars",
+    "canal": "Carmoonic",
+    "views": 269861,
+    "idade": 25.026286535578702,
+    "vpd": 10783.101984241699,
+    "inscritos": 21300,
+    "outlier": 12.669530516431925,
+    "duracao": 135,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=CQsI-HrwPOw",
+    "paises": [
+     "US"
+    ],
+    "janelas": [
+     "mes"
+    ],
+    "sementes": [
+     "car maintenance you can do yourself"
+    ]
+   },
+   {
+    "id": "hhILPKKFQBg",
+    "titulo": "DIY or Mechanic Repair? 🤔",
+    "canal": "Red River Nissan",
+    "views": 43754,
+    "idade": 27.198103665208333,
+    "vpd": 1608.7150978827203,
+    "inscritos": 3550,
+    "outlier": 12.32507042253521,
+    "duracao": 24,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=hhILPKKFQBg",
+    "paises": [
+     "CL",
+     "CO"
+    ],
+    "janelas": [
+     "mes"
+    ],
+    "sementes": [
+     "mantenimiento del auto tú mismo"
+    ]
+   },
+   {
+    "id": "k-lLcOYV3FY",
+    "titulo": "RISKY MISTAKES FROM NEW DRIVERS #fyp #driving #students #newdriver #license #drivingwithprez",
+    "canal": "drivingwithprez",
+    "views": 134955,
+    "idade": 23.961865239282407,
+    "vpd": 5632.074074882892,
+    "inscritos": 20500,
+    "outlier": 6.583170731707317,
+    "duracao": 67,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=k-lLcOYV3FY",
+    "paises": [
+     "US"
+    ],
+    "janelas": [
+     "mes"
+    ],
+    "sementes": [
+     "new driver mistakes"
+    ]
+   },
+   {
+    "id": "ndfs9d-EW4Y",
+    "titulo": "9 Trucos \"Ilegales\" que Hacen que Tu Auto Ande Mejor al Instante (Mecánico de 30 Años)",
+    "canal": "Claudio el Mecánico",
+    "views": 66596,
+    "idade": 15.92750181335648,
+    "vpd": 4181.19556854509,
+    "inscritos": 7880,
+    "outlier": 8.451269035532995,
+    "duracao": 1845,
     "short": false,
-    "url": "https://www.youtube.com/watch?v=CmAXijZPAWo",
+    "url": "https://www.youtube.com/watch?v=ndfs9d-EW4Y",
     "paises": [
-     "CA",
-     "IN"
-    ],
-    "janelas": [
-     "semana"
-    ],
-    "sementes": [
-     "first car buying tips"
-    ]
-   },
-   {
-    "id": "ccQi_b0iy38",
-    "titulo": "Buy a 10-Year-Old First-Owner Car Instead – Here's Why",
-    "canal": "BIM Auto",
-    "views": 81983,
-    "idade": 19.297227589351852,
-    "vpd": 4248.434114195656,
-    "inscritos": 12500,
-    "outlier": 6.55864,
-    "duracao": 131,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=ccQi_b0iy38",
-    "paises": [
-     "IN"
+     "CL",
+     "CO"
     ],
     "janelas": [
      "mes"
     ],
     "sementes": [
-     "first car buying tips"
+     "mantenimiento del auto tú mismo"
     ]
    },
    {
-    "id": "BMlAdzVvDkE",
-    "titulo": "5 Ruidos mas peligrosos de tu auto. #car #cartips #automotive",
-    "canal": "TodoMotor",
-    "views": 14534,
-    "idade": 2.7627484226851853,
-    "vpd": 5260.703392556474,
-    "inscritos": 127,
-    "outlier": 14.534,
-    "duracao": 143,
+    "id": "PYQmt_cutHA",
+    "titulo": "How to Avoid Further Scratches While Driving | Beginner Driver Tips #manualtransmission",
+    "canal": "Info sis ",
+    "views": 111724,
+    "idade": 11.437605980023148,
+    "vpd": 9768.128067633772,
+    "inscritos": 17800,
+    "outlier": 6.2766292134831465,
+    "duracao": 31,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=BMlAdzVvDkE",
+    "url": "https://www.youtube.com/watch?v=PYQmt_cutHA",
     "paises": [
-     "AR"
+     "CL",
+     "CO"
     ],
     "janelas": [
-     "semana"
+     "mes"
     ],
     "sementes": [
-     "ruidos del auto"
+     "consejos para conducir principiantes"
     ]
    }
   ],
   "ano": [
    {
-    "id": "Q6JiYSq9hfs",
-    "titulo": "POV: Muddy to Shiny Car Transformation 😍Watch the full wash! 🔥",
-    "canal": "GW-Carwash",
-    "views": 153365864,
-    "idade": 151.21359333009258,
-    "vpd": 1014233.3147603278,
-    "inscritos": 68300,
-    "outlier": 2245.473850658858,
-    "duracao": 46,
+    "id": "RZQ30Tfez_I",
+    "titulo": "Even Experienced Drivers Can Sometimes Make Mistakes.",
+    "canal": "Driving Real Show",
+    "views": 4231987,
+    "idade": 331.41552264668985,
+    "vpd": 12769.42904243978,
+    "inscritos": 366000,
+    "outlier": 11.562806010928961,
+    "duracao": 35,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=Q6JiYSq9hfs",
+    "url": "https://www.youtube.com/watch?v=RZQ30Tfez_I",
     "paises": [
-     "CA",
-     "IN"
+     "US"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "car cleaning tips"
+     "new driver mistakes"
     ]
    },
    {
-    "id": "RJaKhj-DXKo",
-    "titulo": "Here we go!! (HIT THAT FOLLOW BUTTON TO HELP ME GET TO 1 MIL!!! 🙏🏼) #dad #cleaning #car #viral",
-    "canal": "The_solodad",
-    "views": 38396746,
-    "idade": 147.05758638564814,
-    "vpd": 261100.06932459265,
-    "inscritos": 795000,
-    "outlier": 48.29779371069182,
-    "duracao": 56,
+    "id": "Qp2BJ3WnmgU",
+    "titulo": "5 Automatic Car Mistakes! ❌ #shorts #cars",
+    "canal": "Trakin Auto",
+    "views": 3960452,
+    "idade": 218.32316153557872,
+    "vpd": 18140.319937399727,
+    "inscritos": 772000,
+    "outlier": 5.130119170984456,
+    "duracao": 73,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=RJaKhj-DXKo",
+    "url": "https://www.youtube.com/watch?v=Qp2BJ3WnmgU",
     "paises": [
-     "CA",
-     "IN"
+     "US"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "car cleaning tips"
+     "car tips for beginners",
+     "new driver mistakes"
     ]
    },
    {
-    "id": "K1-sf50NAqU",
-    "titulo": "Restore Old Headlights to NEW in 1 Minute with Vaseline! Genius Trick",
-    "canal": "DIY Hacks",
-    "views": 7598380,
-    "idade": 283.27647527453706,
-    "vpd": 26823.194522722155,
-    "inscritos": 167000,
-    "outlier": 45.499281437125745,
-    "duracao": 1115,
+    "id": "cNaAWKNEANY",
+    "titulo": "Manual Car Gear Shifting Simulation for Beginners (Engine Off)",
+    "canal": "Zamen Drive",
+    "views": 3736074,
+    "idade": 45.37321940594907,
+    "vpd": 82340.95021060259,
+    "inscritos": 45800,
+    "outlier": 81.57366812227075,
+    "duracao": 18,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=cNaAWKNEANY",
+    "paises": [
+     "US"
+    ],
+    "janelas": [
+     "ano"
+    ],
+    "sementes": [
+     "car tips for beginners"
+    ]
+   },
+   {
+    "id": "gr9Ne83FzHM",
+    "titulo": "Esta pieza de $1 destruyó el auto de mis sueños",
+    "canal": "Nocturna",
+    "views": 3670452,
+    "idade": 230.96882125780095,
+    "vpd": 15891.547525815806,
+    "inscritos": 1140000,
+    "outlier": 3.219694736842105,
+    "duracao": 1815,
     "short": false,
-    "url": "https://www.youtube.com/watch?v=K1-sf50NAqU",
+    "url": "https://www.youtube.com/watch?v=gr9Ne83FzHM",
     "paises": [
-     "CA",
-     "IN"
+     "CL",
+     "CO"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "car cleaning tips"
+     "mantenimiento del auto tú mismo"
     ]
    },
    {
-    "id": "6X3ywXCRqjI",
-    "titulo": "Best High Pressure Water Gun with Soap Dispenser 🧪 Car & Bike Wash Hack",
-    "canal": "Crazy 1T",
-    "views": 7017851,
-    "idade": 114.42191508935184,
-    "vpd": 61333.10209429526,
-    "inscritos": 95600,
-    "outlier": 73.40848326359833,
-    "duracao": 50,
+    "id": "RKQ2kg0chtk",
+    "titulo": "¡Transforma tu Gato de Auto en ULTRARRÁPIDO! 🚗💨 (Super Truco Mecánico)#mecanica",
+    "canal": "Mecánica Revelada",
+    "views": 3015208,
+    "idade": 74.46199255409722,
+    "vpd": 40493.24892574461,
+    "inscritos": 35200,
+    "outlier": 85.65931818181818,
+    "duracao": 115,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=6X3ywXCRqjI",
+    "url": "https://www.youtube.com/watch?v=RKQ2kg0chtk",
     "paises": [
-     "CA",
-     "IN"
+     "CL",
+     "CO"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "car cleaning tips"
+     "mantenimiento del auto tú mismo"
     ]
    },
    {
-    "id": "Bb7Z3jSIVa8",
-    "titulo": "17 HIDDEN Car Tricks NO ONE Knows About (Pro Tips)",
-    "canal": "CarCraft",
-    "views": 6898828,
-    "idade": 364.1096234226852,
-    "vpd": 18947.118000205486,
-    "inscritos": 108000,
-    "outlier": 63.87803703703704,
-    "duracao": 1577,
+    "id": "wfdhDJwjgTg",
+    "titulo": "Your CAR is DYING Slowly, STOP it with this simple DIY",
+    "canal": "Preventive Maintenance Mechanic",
+    "views": 2693657,
+    "idade": 343.89166848002316,
+    "vpd": 7832.864959787405,
+    "inscritos": 15600,
+    "outlier": 172.67032051282052,
+    "duracao": 502,
     "short": false,
-    "url": "https://www.youtube.com/watch?v=Bb7Z3jSIVa8",
+    "url": "https://www.youtube.com/watch?v=wfdhDJwjgTg",
     "paises": [
-     "CA",
-     "IN"
+     "US"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "car cleaning tips"
+     "car maintenance you can do yourself"
     ]
    },
    {
-    "id": "YAELyKcVCwY",
-    "titulo": "CARROS QUE FAZEM BARULHO DE ANIMAIS! #shorts",
-    "canal": "Léo Crunfli",
-    "views": 4562296,
-    "idade": 38.14892897824074,
-    "vpd": 119591.71914373343,
-    "inscritos": 1540000,
-    "outlier": 2.9625298701298703,
-    "duracao": 58,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=YAELyKcVCwY",
-    "paises": [
-     "AR"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "ruidos del auto"
-    ]
-   },
-   {
-    "id": "ssLYq9N9DGs",
-    "titulo": "El mejor sonido de carros ",
-    "canal": "ALEDRO",
-    "views": 3500921,
-    "idade": 89.98535258935186,
-    "vpd": 38905.45404624297,
-    "inscritos": 82200,
-    "outlier": 42.5902798053528,
-    "duracao": 69,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=ssLYq9N9DGs",
-    "paises": [
-     "AR"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "ruidos del auto"
-    ]
-   },
-   {
-    "id": "1vUbDw5Ao5U",
-    "titulo": "🚘😅 AUTOS ELÉCTRICOS CON SONIDOS DE MOTOR FALSOS #carros #auto",
-    "canal": "AIRIZU MOTORS",
-    "views": 2670357,
-    "idade": 208.73473916342593,
-    "vpd": 12793.064588589068,
-    "inscritos": 303000,
-    "outlier": 8.813059405940594,
-    "duracao": 47,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=1vUbDw5Ao5U",
-    "paises": [
-     "AR"
-    ],
-    "janelas": [
-     "ano"
-    ],
-    "sementes": [
-     "ruidos del auto"
-    ]
-   },
-   {
-    "id": "V45jVbFi7DA",
-    "titulo": "15 funciones ocultas de tu auto que nadie te explicó (consejos de experto)",
-    "canal": "Lobo de los Talleres",
-    "views": 2394022,
-    "idade": 333.0260470337963,
-    "vpd": 7188.692960575088,
-    "inscritos": 33300,
-    "outlier": 71.89255255255256,
-    "duracao": 1395,
+    "id": "8Ote9sLF0Jw",
+    "titulo": "6 Maintenance Rules to Make Your Car Last 300,000 Miles",
+    "canal": "Chris from Beachside Auto Parts",
+    "views": 2455717,
+    "idade": 360.9383930170602,
+    "vpd": 6803.701261793803,
+    "inscritos": 72000,
+    "outlier": 34.10718055555556,
+    "duracao": 380,
     "short": false,
-    "url": "https://www.youtube.com/watch?v=V45jVbFi7DA",
+    "url": "https://www.youtube.com/watch?v=8Ote9sLF0Jw",
     "paises": [
-     "AR"
+     "US"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "funciones del auto que no conocías"
+     "car maintenance you can do yourself"
     ]
    },
    {
-    "id": "a8dBl3IMLkM",
-    "titulo": "If Your Car DEALER Does this- WALK OUT!",
-    "canal": "The Car Guy Chronicles With Zac",
-    "views": 2052393,
-    "idade": 245.74522527453706,
-    "vpd": 8351.710588505417,
-    "inscritos": 74300,
-    "outlier": 27.62305518169583,
-    "duracao": 1064,
+    "id": "xG2PrIN64ME",
+    "titulo": "IDIOTS IN A U-HAUL : Crashes, Mistakes & Road Rage - Learn how to drive",
+    "canal": "RR&BD Driving School",
+    "views": 1374684,
+    "idade": 176.763832831875,
+    "vpd": 7776.95288666602,
+    "inscritos": 306000,
+    "outlier": 4.49243137254902,
+    "duracao": 1128,
     "short": false,
-    "url": "https://www.youtube.com/watch?v=a8dBl3IMLkM",
+    "url": "https://www.youtube.com/watch?v=xG2PrIN64ME",
     "paises": [
-     "IN"
+     "US"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "first car buying tips"
+     "new driver mistakes"
     ]
    },
    {
-    "id": "Y1f_6vMUSCE",
-    "titulo": "How to make your car Turbo Flutter!",
-    "canal": "David ",
-    "views": 1862974,
-    "idade": 44.93174147824074,
-    "vpd": 41462.314584494554,
-    "inscritos": 79900,
-    "outlier": 23.316320400500626,
-    "duracao": 75,
+    "id": "NNiPc1H28fo",
+    "titulo": "Watch: One-Armed Woman Proves Cop Wrong During Texting and Driving Stop #shorts",
+    "canal": "New York Post",
+    "views": 1318021,
+    "idade": 182.75036060965277,
+    "vpd": 7212.138983491466,
+    "inscritos": 2650000,
+    "outlier": 0.4973664150943396,
+    "duracao": 44,
     "short": true,
-    "url": "https://www.youtube.com/watch?v=Y1f_6vMUSCE",
+    "url": "https://www.youtube.com/watch?v=NNiPc1H28fo",
     "paises": [
-     "CA",
-     "IN"
+     "US"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "why is my car making this noise"
+     "new driver mistakes"
     ]
    },
    {
-    "id": "x1rMskhoch0",
-    "titulo": "😱 New CAR Mistakes ❌ Shocking Truth #shorts #newcar #carbuyingtips",
-    "canal": "Auto Zoom",
-    "views": 1800011,
-    "idade": 39.588720644907404,
-    "vpd": 45467.77391836604,
-    "inscritos": 902000,
-    "outlier": 1.9955776053215077,
-    "duracao": 160,
-    "short": true,
-    "url": "https://www.youtube.com/watch?v=x1rMskhoch0",
+    "id": "X9GOMacGUCA",
+    "titulo": "Nadie Limpia Este Sensor y Por Eso Tu Auto Tiembla al Ralentí",
+    "canal": "MotorTips",
+    "views": 1249941,
+    "idade": 295.8962518133565,
+    "vpd": 4224.254252427738,
+    "inscritos": 161000,
+    "outlier": 7.763608695652174,
+    "duracao": 1412,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=X9GOMacGUCA",
     "paises": [
-     "CA",
-     "IN"
+     "CL",
+     "CO"
     ],
     "janelas": [
      "ano"
     ],
     "sementes": [
-     "first car buying tips"
+     "mantenimiento del auto tú mismo"
+    ]
+   },
+   {
+    "id": "p83Lik7i3kI",
+    "titulo": "ASÍ SE LIMPIAN los Sensores de tu Auto y DESAPARECEN las Fallas (sin ir al taller)",
+    "canal": "MotorTips",
+    "views": 848432,
+    "idade": 351.91711986891204,
+    "vpd": 2410.885836744851,
+    "inscritos": 161000,
+    "outlier": 5.269763975155279,
+    "duracao": 1156,
+    "short": false,
+    "url": "https://www.youtube.com/watch?v=p83Lik7i3kI",
+    "paises": [
+     "CL",
+     "CO"
+    ],
+    "janelas": [
+     "ano"
+    ],
+    "sementes": [
+     "mantenimiento del auto tú mismo"
+    ]
+   },
+   {
+    "id": "x3qfs5W1xXk",
+    "titulo": "Cómo recargar gas del aire acondicionado en tu coche #coches #autokom #carros #mecanica #publi",
+    "canal": "AUTOKOM",
+    "views": 827852,
+    "idade": 151.08107820224535,
+    "vpd": 5479.521392426074,
+    "inscritos": 9820,
+    "outlier": 84.30264765784113,
+    "duracao": 95,
+    "short": true,
+    "url": "https://www.youtube.com/watch?v=x3qfs5W1xXk",
+    "paises": [
+     "CL",
+     "CO"
+    ],
+    "janelas": [
+     "ano"
+    ],
+    "sementes": [
+     "mantenimiento del auto tú mismo"
     ]
    }
   ]
@@ -1221,32 +1224,45 @@
    "ja_comecou": true
   },
   {
-   "inicio": "2026-11-20",
-   "fim": "2026-11-20",
-   "evento": "Consciência Negra (feriado nacional)",
-   "ideias": "feriado, viagem curta",
-   "ja_comecou": false
-  },
-  {
    "inicio": "2026-12-15",
    "fim": "2026-12-31",
    "evento": "Natal, Ano Novo e férias",
    "ideias": "viagem longa, checklist, cansaço, lei seca, IPVA chegando",
+   "ja_comecou": false
+  },
+  {
+   "inicio": "2027-01-01",
+   "fim": "2027-03-15",
+   "evento": "Chuvas fortes (Sudeste e Centro-Oeste)",
+   "ideias": "aquaplanagem, rua alagada, palheta, desembaçar",
+   "ja_comecou": false
+  },
+  {
+   "inicio": "2027-01-02",
+   "fim": "2027-03-31",
+   "evento": "IPVA e licenciamento",
+   "ideias": "como pagar, desconto à vista, multa por atraso, documento digital",
    "ja_comecou": false
   }
  ],
  "avisos": {},
  "duvidas_fora": [
   {
-   "id": "us:what does it mean when your car jerks while driving",
-   "pais": "EUA",
-   "texto": "what does it mean when your car jerks while driving",
-   "pontos": 3.0
+   "id": "mx:que pasa si mi carro esta pasado de aceite",
+   "pais": "México",
+   "texto": "qué pasa si mi carro está pasado de aceite",
+   "pontos": 3.7
   },
   {
-   "id": "mx:por que mi carro huele a gasolina",
+   "id": "mx:que pasa si mi carro no tiene termostato",
    "pais": "México",
-   "texto": "por qué mi carro huele a gasolina",
+   "texto": "qué pasa si mi carro no tiene termostato",
+   "pontos": 3.2
+  },
+  {
+   "id": "mx:por que mi auto pierde potencia",
+   "pais": "México",
+   "texto": "por qué mi auto pierde potencia",
    "pontos": 2.7
   }
  ]
